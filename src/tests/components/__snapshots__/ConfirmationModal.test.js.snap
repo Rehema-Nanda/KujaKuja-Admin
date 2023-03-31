@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConfirmationModal /> renders correctly 1`] = `
+"<Modal isOpen={false} toggle={[Function: mockConstructor]} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}}>
+  <ModalBody tag=\\"div\\">
+    Do you really want to delete this item?
+  </ModalBody>
+  <ModalFooter tag=\\"div\\">
+    <Button color=\\"primary\\" className=\\"primary\\" onClick={[Function: mockConstructor]} tag=\\"button\\">
+      Yes
+    </Button>
+    <Button color=\\"primary\\" className=\\"primary cancel\\" onClick={[Function: mockConstructor]} tag=\\"button\\">
+      No
+    </Button>
+  </ModalFooter>
+</Modal>"
+`;

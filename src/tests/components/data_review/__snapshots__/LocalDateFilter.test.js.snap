@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocalDateFilter component renders correctly 1`] = `
+"<LocalDateFilter handleLocalFilterDateOptionSelect={[Function: mockConstructor]} selectedDateOption=\\"Created At\\">
+  <Form className=\\"local-date-container\\" tag=\\"form\\">
+    <form className=\\"local-date-container\\">
+      <FormGroup tag=\\"div\\">
+        <div className=\\"position-relative form-group\\">
+          <FormGroup check={true} inline={true} tag=\\"div\\">
+            <div className=\\"position-relative form-check form-check-inline\\">
+              <Label check={true} className=\\"form-label-check\\" tag=\\"label\\" widths={{...}}>
+                <label htmlFor={[undefined]} className=\\"form-label-check form-check-label\\">
+                  <Input type=\\"radio\\" name=\\"radio1\\" onChange={[Function: mockConstructor]} value=\\"Created At\\" checked={true}>
+                    <input name=\\"radio1\\" onChange={[Function: mockConstructor]} value=\\"Created At\\" checked={true} type=\\"radio\\" className=\\"form-check-input\\" />
+                  </Input>
+                  Created At
+                </label>
+              </Label>
+            </div>
+          </FormGroup>
+          <FormGroup check={true} inline={true} tag=\\"div\\">
+            <div className=\\"position-relative form-check form-check-inline\\">
+              <Label check={true} className=\\"form-label-check\\" tag=\\"label\\" widths={{...}}>
+                <label htmlFor={[undefined]} className=\\"form-label-check form-check-label\\">
+                  <Input type=\\"radio\\" name=\\"radio1\\" onChange={[Function: mockConstructor]} value=\\"Uploaded At\\" checked={false}>
+                    <input name=\\"radio1\\" onChange={[Function: mockConstructor]} value=\\"Uploaded At\\" checked={false} type=\\"radio\\" className=\\"form-check-input\\" />
+                  </Input>
+                  Uploaded At
+                </label>
+              </Label>
+            </div>
+          </FormGroup>
+        </div>
+      </FormGroup>
+    </form>
+  </Form>
+</LocalDateFilter>"
+`;

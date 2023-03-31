@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`success modal renders correctly 1`] = `
+"<Modal isOpen={true} size=\\"lg\\" className=\\"daily-review-page\\" style={{...}} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}}>
+  <ModalHeader toggle={[Function: mockConstructor]} tag=\\"h5\\" wrapTag=\\"div\\" closeAriaLabel=\\"Close\\" charCode={215}>
+    Success!
+  </ModalHeader>
+  <ModalBody tag=\\"div\\">
+    <div>
+      <img alt=\\"\\" src={{...}} className=\\"success-modal-check-mark\\" />
+      <p className=\\"success-modal-check-text\\">
+        Service Point
+         
+        has been fixed on
+         
+        3
+         
+        response(s)
+      </p>
+    </div>
+  </ModalBody>
+</Modal>"
+`;

@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocalFilter component renders correctly 1`] = `
+"<LocalFilter handleLocalFilterDateOptionSelect={[Function: mockConstructor]} selectedDateOption=\\"Created At\\" locations={{...}} handleUserLocationChange={[Function: mockConstructor]} selectedUserLocations={{...}}>
+  <div className=\\"local-filter\\">
+    <div className=\\"local-filter-container\\">
+      <LocalDateFilter handleLocalFilterDateOptionSelect={[Function: mockConstructor]} selectedDateOption=\\"Created At\\">
+        <Form className=\\"local-date-container\\" tag=\\"form\\">
+          <form className=\\"local-date-container\\">
+            <FormGroup tag=\\"div\\">
+              <div className=\\"position-relative form-group\\">
+                <FormGroup check={true} inline={true} tag=\\"div\\">
+                  <div className=\\"position-relative form-check form-check-inline\\">
+                    <Label check={true} className=\\"form-label-check\\" tag=\\"label\\" widths={{...}}>
+                      <label htmlFor={[undefined]} className=\\"form-label-check form-check-label\\">
+                        <Input type=\\"radio\\" name=\\"radio1\\" onChange={[Function: mockConstructor]} value=\\"Created At\\" checked={true}>
+                          <input name=\\"radio1\\" onChange={[Function: mockConstructor]} value=\\"Created At\\" checked={true} type=\\"radio\\" className=\\"form-check-input\\" />
+                        </Input>
+                        Created At
+                      </label>
+                    </Label>
+                  </div>
+                </FormGroup>
+                <FormGroup check={true} inline={true} tag=\\"div\\">
+                  <div className=\\"position-relative form-check form-check-inline\\">
+                    <Label check={true} className=\\"form-label-check\\" tag=\\"label\\" widths={{...}}>
+                      <label htmlFor={[undefined]} className=\\"form-label-check form-check-label\\">
+                        <Input type=\\"radio\\" name=\\"radio1\\" onChange={[Function: mockConstructor]} value=\\"Uploaded At\\" checked={false}>
+                          <input name=\\"radio1\\" onChange={[Function: mockConstructor]} value=\\"Uploaded At\\" checked={false} type=\\"radio\\" className=\\"form-check-input\\" />
+                        </Input>
+                        Uploaded At
+                      </label>
+                    </Label>
+                  </div>
+                </FormGroup>
+              </div>
+            </FormGroup>
+          </form>
+        </Form>
+      </LocalDateFilter>
+      <LocalUserLocationFilter locations={{...}} handleUserLocationChange={[Function: mockConstructor]} selectedUserLocations={{...}}>
+        <div className=\\"user-location-container\\">
+          <div id=\\"UserLocationDropdown\\" className=\\"map-controls-button user-location-button\\" onClick={[Function]}>
+            <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+              <span className=\\"badge badge-secondary badge-pill\\">
+                All
+              </span>
+            </Badge>
+             
+            Team Location
+            <div className=\\"map-controls-button-caret\\">
+              <FontAwesomeIcon icon=\\"caret-down\\">
+                <i className=\\"fa\\" />
+              </FontAwesomeIcon>
+            </div>
+          </div>
+          <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"UserLocationDropdown\\" toggle={[Function]} className=\\"map-controls-popover\\">
+            Popover
+          </mockConstructor>
+        </div>
+      </LocalUserLocationFilter>
+    </div>
+    <div className=\\"globalfilter-mobile\\">
+      <Navbar tag=\\"nav\\" expand={false}>
+        <nav className=\\"navbar\\">
+          <NavbarBrand className=\\"globalfilter-mobile-brand\\" tag=\\"a\\">
+            <a className=\\"globalfilter-mobile-brand navbar-brand\\">
+              <p>
+                Local Filter
+              </p>
+            </a>
+          </NavbarBrand>
+          <NavbarToggler onClick={[Function]} tag=\\"button\\" type=\\"button\\">
+            <button onClick={[Function]} type=\\"button\\" className=\\"navbar-toggler\\">
+              <span className=\\"navbar-toggler-icon\\" />
+            </button>
+          </NavbarToggler>
+          <Collapse isOpen={false} navbar={true} in={false} mountOnEnter={false} unmountOnExit={false} appear={false} enter={true} exit={true} onEnter={[Function: noop]} onEntering={[Function: noop]} onEntered={[Function: noop]} onExit={[Function: noop]} onExiting={[Function: noop]} onExited={[Function: noop]} tag=\\"div\\" timeout={350}>
+            <Transition onExited={[Function: bound onExited]} onExiting={[Function: bound onExiting]} onExit={[Function: bound onExit]} onEntered={[Function: bound onEntered]} onEntering={[Function: bound onEntering]} onEnter={[Function: noop]} timeout={350} exit={true} enter={true} appear={false} unmountOnExit={false} mountOnEnter={false} in={false}>
+              <div style={{...}} className=\\"collapse navbar-collapse\\">
+                <div className=\\"globalfilter-mobile-container\\">
+                  <div>
+                    <div className=\\"globalfilter-locations-container fadein\\">
+                      <Button onClick={[Function]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                        <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                          Created At
+                          <div className=\\"globalfilter-button-caret\\">
+                            <FontAwesomeIcon icon=\\"caret-right\\">
+                              <i className=\\"fa\\" />
+                            </FontAwesomeIcon>
+                          </div>
+                        </button>
+                      </Button>
+                      <Button onClick={[Function]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                        <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                          Team Location (
+                          0
+                          )
+                          <div className=\\"globalfilter-button-caret\\">
+                            <FontAwesomeIcon icon=\\"caret-right\\">
+                              <i className=\\"fa\\" />
+                            </FontAwesomeIcon>
+                          </div>
+                        </button>
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Transition>
+          </Collapse>
+        </nav>
+      </Navbar>
+    </div>
+  </div>
+</LocalFilter>"
+`;

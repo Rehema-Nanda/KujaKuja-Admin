@@ -1,0 +1,120 @@
+.global-header {
+    background-color: #ffc300;
+    z-index: 1049;
+}
+
+.global-header.z-index-lower{
+    z-index: 1047;
+}
+
+.navbar {
+    min-height: 104px;
+    border-top-width: 6px;
+    border-top-style: solid;
+}
+
+.logo-parent-div{
+    float: left;
+}
+
+.customer-logo-parent-div{
+    float: left;
+    height: 68px;
+    width: 80px;
+    margin-left: -16px;
+    padding: 12px 12px 11px 12px;
+    border-radius: 0px 8px 8px 0px;
+    text-align: center;
+}
+
+.customer-logo {
+    max-width: 100px;
+    max-height: 100%;
+    margin: auto;
+}
+
+.custom-logo{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.customer-logo-nav-link {
+    padding: 0;
+    display: inline-block;
+    height: 100%;
+}
+
+.kuja-kuja-logo-nav-link {
+    padding: 12px 0 0 12px;
+    float: left;
+}
+
+.customer-logo-nav-link span.title-text {
+    font-family: 'Nunito Sans', sans-serif !important;
+    padding-left: 10px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.navbar-toggler {
+    padding: 0;
+    margin-right: 16px;
+    border: none;
+    outline: none;
+}
+
+.global-header .navbar-toggler-icon {
+    width: 32px;
+    margin-right: 0;
+    background-image: url('../img/hamburger.svg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+nav .navbar-nav li a {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #171D21 !important;
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+nav .navbar-nav li a.navbar_active {
+    border-bottom: #171D21 1px solid;
+}
+
+nav .collapse.show .navbar-nav {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+nav .collapse.show .navbar-nav li {
+    padding-left: 24px;
+}
+
+nav .collapse.show .navbar-nav li a {
+    margin: 16px;
+    padding: 0;
+}
+
+.dropdown-menu{
+    min-width: 192px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 18px 24px -6px rgba(23,29,33,0.14);
+    z-index: 999999;
+}
+
+.dropdown-item {
+    text-align: center;
+    padding: 8px;
+}
+
+.dropdown-item:active {
+    background-color: #F8F9FA;
+}
+
+.modal-body {
+    padding: 16px !important;
+}

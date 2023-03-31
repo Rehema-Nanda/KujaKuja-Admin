@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagFilterEdit component should render correctly 1`] = `
+"<TagFilterEdit history={{...}} match={{...}}>
+  <div className=\\"page\\">
+    <div className=\\"title-background-parent\\">
+      <div className=\\"title-background-shape\\" />
+    </div>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <Row tag=\\"div\\">
+          <div className=\\"row\\">
+            <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+              <div className=\\"col-sm-7 col-md-8\\">
+                <div className=\\"page-title\\">
+                  <h1 className=\\"left\\">
+                    Tag Filters
+                  </h1>
+                  <p>
+                    Manage your tag filter
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+              <div className=\\"col-sm-5 col-md-4\\">
+                <div className=\\"bulk-update-button\\">
+                  <Dropdown isOpen={false} toggle={[Function]} direction=\\"down\\" nav={false} active={false} addonType={false} inNavbar={false} setActiveFromChild={false}>
+                    <Manager tag=\\"div\\" className=\\"dropdown\\" onKeyDown={[Function: bound handleKeyDown]}>
+                      <div className=\\"dropdown\\" onKeyDown={[Function: bound handleKeyDown]}>
+                        <DropdownToggle caret={true} color=\\"primary\\" className=\\"primary\\" aria-haspopup={true}>
+                          <Target aria-haspopup={true} color=\\"primary\\" cssModule={[undefined]} className=\\"primary dropdown-toggle\\" component={[Function: Button]} onClick={[Function: bound onClick]} aria-expanded={false}>
+                            <Button aria-haspopup={true} color=\\"primary\\" cssModule={[undefined]} className=\\"primary dropdown-toggle\\" onClick={[Function: bound onClick]} aria-expanded={false} innerRef={[Function: targetRef]} tag=\\"button\\">
+                              <button type=\\"button\\" aria-haspopup={true} onClick={[Function: bound onClick]} aria-expanded={false} className=\\"primary dropdown-toggle btn btn-primary\\" aria-label={{...}}>
+                                Actions
+                              </button>
+                            </Button>
+                          </Target>
+                        </DropdownToggle>
+                        <DropdownMenu tag=\\"div\\" flip={true}>
+                          <div tabIndex=\\"-1\\" role=\\"menu\\" aria-hidden={true} className=\\"dropdown-menu\\" x-placement={[undefined]}>
+                            <DropdownItem className=\\"bulk-update-dropdown\\" onClick={[Function]} disabled={true} tag=\\"button\\" toggle={true}>
+                              <button type=\\"button\\" onClick={[Function: bound onClick]} disabled={true} tabIndex=\\"-1\\" className=\\"bulk-update-dropdown disabled dropdown-item\\">
+                                <span className=\\"bulk-update-dropdown-title\\">
+                                  Delete filter
+                                </span>
+                              </button>
+                            </DropdownItem>
+                            <DropdownItem className=\\"bulk-update-dropdown\\" onClick={[Function: onClick]} disabled={true} tag=\\"button\\" toggle={true}>
+                              <button type=\\"button\\" onClick={[Function: bound onClick]} disabled={true} tabIndex=\\"-1\\" className=\\"bulk-update-dropdown disabled dropdown-item\\">
+                                <span className=\\"bulk-update-dropdown-title\\">
+                                  Apply filter
+                                </span>
+                              </button>
+                            </DropdownItem>
+                            <DropdownItem className=\\"bulk-update-dropdown\\" onClick={[Function: onClick]} disabled={true} tag=\\"button\\" toggle={true}>
+                              <button type=\\"button\\" onClick={[Function: bound onClick]} disabled={true} tabIndex=\\"-1\\" className=\\"bulk-update-dropdown disabled dropdown-item\\">
+                                <span className=\\"bulk-update-dropdown-title\\">
+                                  Undo filter
+                                </span>
+                              </button>
+                            </DropdownItem>
+                          </div>
+                        </DropdownMenu>
+                      </div>
+                    </Manager>
+                  </Dropdown>
+                </div>
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+    </Container>
+    <ConfirmationModal buttonFunction={[Function]} toggle={[Function]} isOpen={false}>
+      <Modal isOpen={false} toggle={[Function]} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}} />
+    </ConfirmationModal>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <div className=\\"white-page-bg\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col lg={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-lg-10 offset-lg-1\\">
+                  <div>
+                    <AvForm onValidSubmit={[Function]} tag={[Function: Form]} model={{...}} validationEvent={{...}} method=\\"get\\" onSubmit={[Function: onSubmit]} onKeyDown={[Function: onKeyDown]} onInvalidSubmit={[Function: onInvalidSubmit]}>
+                      <Form noValidate={true} action=\\"#\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\" tag=\\"form\\">
+                        <form noValidate={true} action=\\"#\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\">
+                          <Row tag=\\"div\\">
+                            <div className=\\"row\\">
+                              <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col-sm-6\\">
+                                  <AvField name=\\"tag_text\\" label=\\"Tag Name\\" required={true} value=\\"tagtest\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"tag_text\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"tag_text\\" className=\\"\\">
+                                              Tag Name
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"tag_text\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"tag_text\\" required={true} value=\\"tagtest\\" validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"tag_text\\" required={true} value=\\"tagtest\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"tag_text\\" type=\\"text\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"tag_text\\" required={true} value=\\"tagtest\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"tag_text\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                              <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col-sm-6\\">
+                                  <AvField disabled={true} name=\\"status\\" label=\\"Status\\" value={[undefined]}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"status\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"status\\" className=\\"\\">
+                                              Status
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"status\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"status\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"status\\" value={[undefined]} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"status\\" type=\\"text\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"status\\" value={[undefined]} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"status\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                              <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col-sm-12\\">
+                                  <AvField name=\\"search_text\\" label=\\"Search Text\\" value=\\"test|sample\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"search_text\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"search_text\\" className=\\"\\">
+                                              Search Text
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"search_text\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"search_text\\" value=\\"test|sample\\" validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"search_text\\" value=\\"test|sample\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"search_text\\" type=\\"text\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"search_text\\" value=\\"test|sample\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"search_text\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                              <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col-sm-10 offset-sm-2\\">
+                                  <Table className=\\"search-examples\\" tag=\\"table\\" responsiveTag=\\"div\\">
+                                    <table className=\\"search-examples table\\">
+                                      <thead>
+                                        <tr>
+                                          <th colSpan=\\"4\\">
+                                            Search text examples
+                                          </th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <strong>
+                                              food &amp; water
+                                            </strong>
+                                          </td>
+                                          <td>
+                                            <em>
+                                              both &quot;food&quot; 
+                                              <strong>
+                                                and
+                                              </strong>
+                                               &quot;water&quot; are present in text
+                                            </em>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <strong>
+                                              food | water
+                                            </strong>
+                                          </td>
+                                          <td>
+                                            <em>
+                                              either &quot;food&quot; 
+                                              <strong>
+                                                or
+                                              </strong>
+                                               &quot;water&quot; are present in text
+                                            </em>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <strong>
+                                              !food
+                                            </strong>
+                                          </td>
+                                          <td>
+                                            <em>
+                                              &quot;food&quot; 
+                                              <strong>
+                                                not
+                                              </strong>
+                                               present in text
+                                            </em>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <strong>
+                                              food &amp; (water | thirst) &amp; !electricity
+                                            </strong>
+                                          </td>
+                                          <td>
+                                            <em>
+                                              &quot;food&quot; and either &quot;water&quot; or &quot;thirst&quot;, and not &quot;electricity&quot;, present in text
+                                            </em>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </Table>
+                                </div>
+                              </Col>
+                              <Col className=\\"dates-parent\\" sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"dates-parent col-sm-6\\">
+                                  <AvField name=\\"start_date\\" id=\\"start_date\\" label=\\"Start Date (e.g 2020-03-31)\\" validate={{...}} placeholder=\\"YYYY-MM-DD\\" value=\\"2020-01-01\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"start_date\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"start_date\\" className=\\"\\">
+                                              Start Date (e.g 2020-03-31)
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"start_date\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"start_date\\" validate={{...}} placeholder=\\"YYYY-MM-DD\\" value=\\"2020-01-01\\" validationEvent=\\"\\" trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"start_date\\" placeholder=\\"YYYY-MM-DD\\" value=\\"2020-01-01\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} pattern={{...}} className=\\"is-untouched is-pristine av-valid\\" id=\\"start_date\\" type=\\"text\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"start_date\\" placeholder=\\"YYYY-MM-DD\\" value=\\"2020-01-01\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} pattern={{...}} id=\\"start_date\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                              <Col className=\\"dates-parent\\" sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"dates-parent col-sm-6\\">
+                                  <AvField name=\\"end_date\\" id=\\"end_date\\" label=\\"End Date (e.g 2020-03-31)\\" validate={{...}} placeholder=\\"YYYY-MM-DD\\" value=\\"2020-02-01\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"end_date\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"end_date\\" className=\\"\\">
+                                              End Date (e.g 2020-03-31)
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"end_date\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"end_date\\" validate={{...}} placeholder=\\"YYYY-MM-DD\\" value=\\"2020-02-01\\" validationEvent=\\"\\" trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"end_date\\" placeholder=\\"YYYY-MM-DD\\" value=\\"2020-02-01\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} pattern={{...}} className=\\"is-untouched is-pristine av-valid\\" id=\\"end_date\\" type=\\"text\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"end_date\\" placeholder=\\"YYYY-MM-DD\\" value=\\"2020-02-01\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} pattern={{...}} id=\\"end_date\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                              <Col className=\\"test-search-text-button-parent\\" sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"test-search-text-button-parent col-sm-12\\">
+                                  <button type=\\"button\\" className=\\"test-search-text-button\\" onClick={[Function]}>
+                                    Preview ideas
+                                  </button>
+                                </div>
+                              </Col>
+                              <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col-sm-12\\" />
+                              </Col>
+                              <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col-sm-12\\">
+                                  <AvField disabled={true} name=\\"locations\\" label=\\"Locations\\" value=\\"Test Location\\">
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"locations\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"locations\\" className=\\"\\">
+                                              Locations
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"locations\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"locations\\" value=\\"Test Location\\" validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"locations\\" value=\\"Test Location\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"locations\\" type=\\"text\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"locations\\" value=\\"Test Location\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"locations\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                          <BtnRow buttonLabel=\\"Update\\" cancelForm={[Function]}>
+                            <Row className=\\"btn-row\\" tag=\\"div\\">
+                              <div className=\\"btn-row row\\">
+                                <Col tag=\\"div\\" widths={{...}}>
+                                  <div className=\\"col\\" />
+                                </Col>
+                                <Col tag=\\"div\\" widths={{...}}>
+                                  <div className=\\"col\\">
+                                    <Button color=\\"primary\\" className=\\"primary cancel\\" onClick={[Function]} tag=\\"button\\">
+                                      <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary cancel btn btn-primary\\" aria-label={{...}}>
+                                        Back
+                                      </button>
+                                    </Button>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </BtnRow>
+                        </form>
+                      </Form>
+                    </AvForm>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </div>
+    </Container>
+  </div>
+</TagFilterEdit>"
+`;

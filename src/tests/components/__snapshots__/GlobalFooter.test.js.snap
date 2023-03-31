@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFooter /> renders correctly 1`] = `
+"<section className=\\"footer\\">
+  <div className=\\"footer-details\\">
+    <div className=\\"footer-logo\\">
+      <img alt=\\"Logo\\" src={{...}} />
+    </div>
+    <div className=\\"footer-social\\">
+      <div className=\\"social-instagram\\" onClick={[Function: onClick]} />
+      <div className=\\"social-fb\\" onClick={[Function: onClick]} />
+      <div className=\\"social-twitter\\" onClick={[Function: onClick]} />
+      <div className=\\"social-medium\\" onClick={[Function: onClick]} />
+    </div>
+  </div>
+</section>"
+`;

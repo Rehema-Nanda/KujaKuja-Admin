@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsersEdit component should render correctly 1`] = `
+"<UsersEdit history={{...}} match={{...}}>
+  <div className=\\"page\\">
+    <div className=\\"title-background-parent\\">
+      <div className=\\"title-background-shape\\" />
+    </div>
+    <Banner pageTitle=\\"team member\\" elementAction=\\"update\\" buttonFunction={[Function]} buttonDisabled={false}>
+      <Container tag=\\"div\\">
+        <div className=\\"container\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-sm-7 col-md-8\\">
+                  <div className=\\"page-title\\">
+                    <h1 className=\\"left\\">
+                      Team member
+                    </h1>
+                    <p>
+                      Manage your
+                       
+                      team member
+                    </p>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-sm-5 col-md-4\\">
+                  <div className=\\"page-title\\" />
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </Banner>
+    <ConfirmationModal buttonFunction={[Function]} toggle={[Function]} isOpen={false}>
+      <Modal isOpen={false} toggle={[Function]} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}} />
+    </ConfirmationModal>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <div className=\\"white-page-bg\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col lg={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-lg-8 offset-lg-2\\">
+                  <div>
+                    <AvForm onValidSubmit={[Function]} tag={[Function: Form]} model={{...}} validationEvent={{...}} method=\\"get\\" onSubmit={[Function: onSubmit]} onKeyDown={[Function: onKeyDown]} onInvalidSubmit={[Function: onInvalidSubmit]}>
+                      <Form noValidate={true} action=\\"#\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\" tag=\\"form\\">
+                        <form noValidate={true} action=\\"#\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\">
+                          <Row tag=\\"div\\">
+                            <div className=\\"row\\">
+                              <Col tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col\\">
+                                  <AvField type=\\"select\\" name=\\"settlement_id\\" label=\\"Location\\" required={true} value=\\"1\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"settlement_id\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"settlement_id\\" className=\\"\\">
+                                              Location
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"settlement_id\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"select\\" name=\\"settlement_id\\" required={true} value=\\"1\\" validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"select\\" name=\\"settlement_id\\" required={true} value=\\"1\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"settlement_id\\">
+                                              <select size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"settlement_id\\" required={true} value=\\"1\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"settlement_id\\" className=\\"is-untouched is-pristine av-valid form-control\\">
+                                                <option value=\\"\\">
+                                                  Please select
+                                                </option>
+                                                <option value=\\"1\\">
+                                                  Test Location
+                                                </option>
+                                              </select>
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"checkbox\\" name=\\"is_admin\\" label=\\"Admin Role\\" checked={true}>
+                                    <AvGroup check={true} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={true} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-check\\">
+                                          <AvInput id=\\"is_admin\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"checkbox\\" name=\\"is_admin\\" checked={true} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"checkbox\\" name=\\"is_admin\\" checked={true} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={true} className=\\"is-untouched is-pristine av-valid\\" id=\\"is_admin\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"is_admin\\" checked={true} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={true} id=\\"is_admin\\" type=\\"checkbox\\" className=\\"is-untouched is-pristine av-valid form-check-input\\" />
+                                            </Input>
+                                          </AvInput>
+                                          <Label for=\\"is_admin\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"is_admin\\" className=\\"\\">
+                                              Admin Role
+                                            </label>
+                                          </Label>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"checkbox\\" name=\\"is_survey\\" label=\\"Survey Role\\" checked={false}>
+                                    <AvGroup check={true} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={true} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-check\\">
+                                          <AvInput id=\\"is_survey\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"checkbox\\" name=\\"is_survey\\" checked={false} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"checkbox\\" name=\\"is_survey\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} className=\\"is-untouched is-pristine av-valid\\" id=\\"is_survey\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"is_survey\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} id=\\"is_survey\\" type=\\"checkbox\\" className=\\"is-untouched is-pristine av-valid form-check-input\\" />
+                                            </Input>
+                                          </AvInput>
+                                          <Label for=\\"is_survey\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"is_survey\\" className=\\"\\">
+                                              Survey Role
+                                            </label>
+                                          </Label>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"checkbox\\" name=\\"is_service_provider\\" label=\\"Service Provider Role\\" checked={false}>
+                                    <AvGroup check={true} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={true} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-check\\">
+                                          <AvInput id=\\"is_service_provider\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"checkbox\\" name=\\"is_service_provider\\" checked={false} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"checkbox\\" name=\\"is_service_provider\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} className=\\"is-untouched is-pristine av-valid\\" id=\\"is_service_provider\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"is_service_provider\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} id=\\"is_service_provider\\" type=\\"checkbox\\" className=\\"is-untouched is-pristine av-valid form-check-input\\" />
+                                            </Input>
+                                          </AvInput>
+                                          <Label for=\\"is_service_provider\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"is_service_provider\\" className=\\"\\">
+                                              Service Provider Role
+                                            </label>
+                                          </Label>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"email\\" name=\\"email\\" label=\\"Email\\" required={true} validate={{...}} value=\\"testuser@kujakuja.com\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"email\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"email\\" className=\\"\\">
+                                              Email
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"email\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"email\\" name=\\"email\\" required={true} validate={{...}} value=\\"testuser@kujakuja.com\\" validationEvent=\\"\\" trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"email\\" name=\\"email\\" required={true} value=\\"testuser@kujakuja.com\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"email\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"email\\" required={true} value=\\"testuser@kujakuja.com\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"email\\" type=\\"email\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"password\\" name=\\"password\\" label=\\"Password\\" required={true} value=\\"encrypted password\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"password\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"password\\" className=\\"\\">
+                                              Password
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"password\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"password\\" name=\\"password\\" required={true} value=\\"encrypted password\\" validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"password\\" name=\\"password\\" required={true} value=\\"encrypted password\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"password\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"password\\" required={true} value=\\"encrypted password\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"password\\" type=\\"password\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"password\\" name=\\"password_confirmation\\" label=\\"Password Confirmation\\" required={true} validate={{...}} value=\\"encrypted password\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"password_confirmation\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"password_confirmation\\" className=\\"\\">
+                                              Password Confirmation
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"password_confirmation\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"password\\" name=\\"password_confirmation\\" required={true} validate={{...}} value=\\"encrypted password\\" validationEvent=\\"\\" trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"password\\" name=\\"password_confirmation\\" required={true} value=\\"encrypted password\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"password_confirmation\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"password_confirmation\\" required={true} value=\\"encrypted password\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"password_confirmation\\" type=\\"password\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                          <BtnRow buttonLabel=\\"Update\\" cancelForm={[Function]}>
+                            <Row className=\\"btn-row\\" tag=\\"div\\">
+                              <div className=\\"btn-row row\\">
+                                <Col tag=\\"div\\" widths={{...}}>
+                                  <div className=\\"col\\" />
+                                </Col>
+                                <Col tag=\\"div\\" widths={{...}}>
+                                  <div className=\\"col\\">
+                                    <Button color=\\"primary\\" className=\\"primary cancel\\" onClick={[Function]} tag=\\"button\\">
+                                      <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary cancel btn btn-primary\\" aria-label={{...}}>
+                                        Back
+                                      </button>
+                                    </Button>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </BtnRow>
+                        </form>
+                      </Form>
+                    </AvForm>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </div>
+    </Container>
+  </div>
+</UsersEdit>"
+`;

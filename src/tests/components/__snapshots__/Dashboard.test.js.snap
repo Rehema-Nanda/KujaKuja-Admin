@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> renders correctly 1`] = `
+"<Dashboard>
+  <div>
+    <section className=\\"dashboard\\">
+      <div className=\\"title-background-parent\\">
+        <div className=\\"title-background-shape\\" />
+      </div>
+      <Container tag=\\"div\\">
+        <div className=\\"container\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col tag=\\"div\\" widths={{...}}>
+                <div className=\\"col\\">
+                  <div className=\\"login-bar\\">
+                    <div className=\\"welcome\\">
+                      <p className=\\"small\\">
+                        Welcome back!
+                      </p>
+                    </div>
+                    <div className=\\"last-login\\">
+                      <p className=\\"small\\">
+                        Last login: 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-sm-8\\">
+                  <Row tag=\\"div\\">
+                    <div className=\\"row\\">
+                      <Col tag=\\"div\\" widths={{...}}>
+                        <div className=\\"col\\">
+                          <div className=\\"top-container\\">
+                            <h4 className=\\"label\\">
+                              Total Data Points
+                            </h4>
+                            <div className=\\"data-holder\\">
+                              <h2 className=\\"numbers_big\\">
+                                105
+                              </h2>
+                            </div>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col tag=\\"div\\" widths={{...}}>
+                        <div className=\\"col\\">
+                          <div className=\\"top-container\\">
+                            <h4 className=\\"label\\">
+                              Overall Satisfaction
+                            </h4>
+                            <div className=\\"pie\\">
+                              <div className=\\"pie-holder\\">
+                                <Pie data={{...}} options={{...}} height={64} width={64}>
+                                  <ChartComponent data={{...}} options={{...}} height={64} width={64} type=\\"pie\\" legend={{...}} redraw={false} datasetKeyProvider={[Function]}>
+                                    <canvas height={64} width={64} id={[undefined]} onClick={[Function]} />
+                                  </ChartComponent>
+                                </Pie>
+                              </div>
+                              <div className=\\"pie-legend\\">
+                                <p className=\\"small\\">
+                                  <Badge color=\\"#F8382B\\" style={{...}} pill={true} tag=\\"span\\">
+                                    <span style={{...}} className=\\"badge badge-#F8382B badge-pill\\">
+                                       
+                                    </span>
+                                  </Badge>
+                                   
+                                  4.8% Unsatisfied
+                                </p>
+                                <p className=\\"small\\">
+                                  <Badge color=\\"success\\" style={{...}} pill={true} tag=\\"span\\">
+                                    <span style={{...}} className=\\"badge badge-success badge-pill\\">
+                                       
+                                    </span>
+                                  </Badge>
+                                   
+                                  95.2% Satisfied
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </Col>
+                    </div>
+                  </Row>
+                  <Row className=\\"top-details-row\\" tag=\\"div\\">
+                    <div className=\\"top-details-row row\\">
+                      <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                        <div className=\\"col-sm-4\\">
+                          <div>
+                            <h4 className=\\"label\\">
+                              Active Countries
+                            </h4>
+                            <h2 className=\\"numbers_big left\\">
+                              1
+                            </h2>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                        <div className=\\"col-sm-4\\">
+                          <div>
+                            <h4 className=\\"label\\">
+                              Active Locations
+                            </h4>
+                            <h2 className=\\"numbers_big left\\">
+                              1
+                            </h2>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                        <div className=\\"col-sm-4\\">
+                          <div>
+                            <h4 className=\\"label\\">
+                              Active Service Points
+                            </h4>
+                            <h2 className=\\"numbers_big left\\">
+                              1
+                            </h2>
+                          </div>
+                        </div>
+                      </Col>
+                    </div>
+                  </Row>
+                  <Row tag=\\"div\\">
+                    <div className=\\"row\\">
+                      <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                        <div className=\\"col-sm-4\\">
+                          <div>
+                            <h4 className=\\"label\\">
+                              Service Types
+                            </h4>
+                            <h2 className=\\"numbers_big left\\">
+                              1
+                            </h2>
+                          </div>
+                        </div>
+                      </Col>
+                      <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                        <div className=\\"col-sm-4\\">
+                          <div>
+                            <h4 className=\\"label\\">
+                              Team Members
+                            </h4>
+                            <h2 className=\\"numbers_big left\\">
+                              1
+                            </h2>
+                          </div>
+                        </div>
+                      </Col>
+                    </div>
+                  </Row>
+                </div>
+              </Col>
+              <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-sm-4\\">
+                  <Col tag=\\"div\\" widths={{...}}>
+                    <div className=\\"col\\">
+                      <div className=\\"top-container-idea-feed\\">
+                        <h4 className=\\"label\\">
+                          This Week&#39;s Featured Ideas
+                        </h4>
+                        <ul className=\\"list-unstyled\\">
+                          <li>
+                            <p>
+                              No featured ideas this week
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </section>
+  </div>
+</Dashboard>"
+`;

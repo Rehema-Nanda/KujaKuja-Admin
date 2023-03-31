@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFilterSearch/> renders correctly 1`] = `
+"<div>
+  <div className=\\"map-controls-search-icon\\">
+    <FontAwesomeIcon icon=\\"search\\" />
+  </div>
+  <Input type=\\"text\\" innerRef={[Function: innerRef]} name=\\"\\" onChange={[Function: bound onChange]} id=\\"search\\" className=\\"map-controls-search\\" placeholder=\\"Search\\" defaultValue=\\"\\" />
+</div>"
+`;

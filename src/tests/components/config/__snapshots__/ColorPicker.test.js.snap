@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ColorPicker /> should render correctly 1`] = `
+"<Row tag=\\"div\\">
+  <Col style={{...}} sm=\\"12\\" md=\\"6\\" tag=\\"div\\" widths={{...}}>
+    <div style={{...}} onClick={[Function]} role=\\"presentation\\">
+      <div style={{...}} />
+    </div>
+  </Col>
+</Row>"
+`;

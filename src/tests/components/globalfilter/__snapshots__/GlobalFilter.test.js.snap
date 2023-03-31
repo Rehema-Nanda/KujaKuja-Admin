@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFilter /> should render correctly 1`] = `
+"<div>
+  <div className=\\"globalfilter-container \\">
+    <div className=\\"globalfilter-desktop\\">
+      <div className=\\"globalfilter-search-container\\">
+        <GlobalFilterSearch setData={[undefined]} toggleRefresh={[undefined]} placeholder=\\"Idea Search\\" clearSearch={false} setClearSearchFalse={[undefined]} defaultSearchValue=\\"\\" />
+      </div>
+      <div className=\\"globalfilter-locations-container\\">
+        <GlobalFilterDropdown id=\\"CountriesDropDown\\" title=\\"Countries\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[undefined]} selectItemHandlerArgs={{...}} selectedItems={{...}} showSearch={true} isServicePoint={false} />
+        <div className=\\"globalfilter-locations-spacer\\" />
+        <GlobalFilterDropdown id=\\"LocationsDropDown\\" className=\\"location-dropdown\\" title=\\"Locations\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[undefined]} selectItemHandlerArgs={{...}} selectedItems={{...}} showSearch={true} isServicePoint={false} />
+      </div>
+      <div className=\\"globalfilter-calendar-container\\">
+        <GlobalFilterCalendar title=\\"From:\\" id=\\"CalendarDropDown\\" withPortal={false} setDateStartEnd={[undefined]} type=\\"calendar_date\\" dateStart={{...}} dateEnd={{...}} />
+      </div>
+      <div className=\\"globalfilter-service-container\\">
+        <GlobalFilterServices serviceTypes={[undefined]} toggleServiceType={[undefined]} selectedServiceTypes={{...}} />
+      </div>
+    </div>
+    <div className=\\"globalfilter-desktop\\">
+      <div className=\\"globalfilter-users-container\\">
+        <GlobalFilterDropdown id=\\"UsersDropDown\\" title=\\"Users\\" items={{...}} itemLabelProperty=\\"email\\" selectItemHandler={[undefined]} selectItemHandlerArgs={{...}} selectedItems={{...}} showSearch={true} isServicePoint={false} />
+      </div>
+      <div className=\\"globalfilter-service-points-container\\">
+        <GlobalFilterDropdown id=\\"ServicePointsDropDown\\" title=\\"Service Points\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[undefined]} selectItemHandlerArgs={{...}} selectedItems={{...}} showSearch={true} isServicePoint={false} />
+      </div>
+      <div className=\\"globalfilter-survey-types-container\\">
+        <GlobalFilterDropdown id=\\"SurveyTypeDropDown\\" title=\\"Survey Types\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[undefined]} selectItemHandlerArgs={{...}} selectedItems={{...}} isServicePoint={false} showSearch={false} />
+      </div>
+      <div className=\\"globalfilter-satisfied-container\\">
+        <GlobalFilterDropdown id=\\"SatisfiedDropDown\\" title=\\"Satisfied\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[undefined]} selectItemHandlerArgs={{...}} selectedItems={{...}} isServicePoint={false} showSearch={false} />
+      </div>
+      <div className=\\"globalfilter-fresh-idea-container\\">
+        <GlobalFilterDropdown id=\\"FreshIdeaDropDown\\" title=\\"Fresh Idea\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[undefined]} selectItemHandlerArgs={{...}} selectedItems={{...}} isServicePoint={false} showSearch={false} />
+      </div>
+      <div className=\\"globalfilter-reset-filters-container\\">
+        <Button className=\\"resetButton primary\\" onClick={[undefined]} color=\\"secondary\\" tag=\\"button\\">
+          Reset All
+        </Button>
+      </div>
+    </div>
+    <div className=\\"globalfilter-mobile\\">
+      <Navbar tag=\\"nav\\" expand={false}>
+        <NavbarBrand className=\\"globalfilter-mobile-brand\\" tag=\\"a\\">
+          <p>
+            Filter
+          </p>
+        </NavbarBrand>
+        <NavbarToggler onClick={[Function: bound ]} tag=\\"button\\" type=\\"button\\" />
+        <Collapse isOpen={false} navbar={true} in={false} mountOnEnter={false} unmountOnExit={false} appear={false} enter={true} exit={true} onEnter={[Function: noop]} onEntering={[Function: noop]} onEntered={[Function: noop]} onExit={[Function: noop]} onExiting={[Function: noop]} onExited={[Function: noop]} tag=\\"div\\" timeout={350}>
+          <div className=\\"globalfilter-mobile-container\\">
+            <div>
+              <div className=\\"globalfilter-search-container fadein\\">
+                <GlobalFilterSearch setData={[undefined]} toggleRefresh={[undefined]} placeholder=\\"Idea Search\\" clearSearch={false} defaultSearchValue=\\"\\" />
+              </div>
+              <div className=\\"globalfilter-users-container fadein\\">
+                <GlobalFilterMobileButton text=\\"Users (0)\\" onClick={[Function: bound ]} />
+              </div>
+              <div className=\\"globalfilter-label fadein\\">
+                <p className=\\"small\\">
+                  Start Date:
+                </p>
+              </div>
+              <div className=\\"globalfilter-label fadein\\">
+                <p className=\\"small\\">
+                  End Date:
+                </p>
+              </div>
+              <div className=\\"globalfilter-calendar-container fadein\\">
+                <GlobalFilterMobileButton text=\\"08/01/2019\\" onClick={[Function: bound ]} />
+                <GlobalFilterMobileButton text=\\"08/08/2019\\" onClick={[Function: bound ]} />
+              </div>
+              <div className=\\"globalfilter-locations-container fadein\\">
+                <GlobalFilterMobileButton text=\\"Countries (0)\\" onClick={[Function: bound ]} />
+                <GlobalFilterMobileButton text=\\"Locations (0)\\" onClick={[Function: bound ]} />
+              </div>
+              <div className=\\"globalfilter-service-points-container fadein\\">
+                <GlobalFilterMobileButton text=\\"Service Points (0)\\" onClick={[Function: bound ]} />
+              </div>
+              <div className=\\"globalfilter-service-container fadein\\">
+                <GlobalFilterServices serviceTypes={[undefined]} toggleServiceType={[undefined]} selectedServiceTypes={{...}} />
+              </div>
+              <div className=\\"globalfilter-survey-types-container fadein\\">
+                <GlobalFilterMobileButton text=\\"Survey Types (0)\\" onClick={[Function: bound ]} />
+              </div>
+              <div className=\\"globalfilter-satisfied-container fadein\\">
+                <GlobalFilterMobileButton text=\\"Satisfied (0)\\" onClick={[Function: bound ]} />
+              </div>
+              <div className=\\"globalfilter-fresh-idea-container fadein\\">
+                <GlobalFilterMobileButton text=\\"Fresh Idea (0)\\" onClick={[Function: bound ]} />
+              </div>
+              <div className=\\"globalfilter-reset-filters-container\\">
+                <Button className=\\"resetButton primary\\" onClick={[undefined]} color=\\"secondary\\" tag=\\"button\\">
+                  Reset All
+                </Button>
+              </div>
+            </div>
+          </div>
+        </Collapse>
+      </Navbar>
+    </div>
+  </div>
+</div>"
+`;

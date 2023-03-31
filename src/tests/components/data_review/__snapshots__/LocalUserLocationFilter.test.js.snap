@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LocalUserLocationFilter component renders correctly 1`] = `
+"<LocalUserLocationFilter locations={{...}} handleUserLocationChange={[Function: mockConstructor]} selectedUserLocations={{...}}>
+  <div className=\\"user-location-container\\">
+    <div id=\\"UserLocationDropdown\\" className=\\"map-controls-button user-location-button\\" onClick={[Function]}>
+      <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+        <span className=\\"badge badge-secondary badge-pill\\">
+          All
+        </span>
+      </Badge>
+       
+      Team Location
+      <div className=\\"map-controls-button-caret\\">
+        <FontAwesomeIcon icon=\\"caret-down\\">
+          <i className=\\"fa\\" />
+        </FontAwesomeIcon>
+      </div>
+    </div>
+    <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"UserLocationDropdown\\" toggle={[Function]} className=\\"map-controls-popover\\">
+      Popover
+    </mockConstructor>
+  </div>
+</LocalUserLocationFilter>"
+`;

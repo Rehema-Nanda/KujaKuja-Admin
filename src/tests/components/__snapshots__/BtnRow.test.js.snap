@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BtnRow component renders correctly 1`] = `
+"<BtnRow buttonLabel=\\"TestLabel\\" cancelForm={[Function: mockConstructor]}>
+  <Row className=\\"btn-row\\" tag=\\"div\\">
+    <div className=\\"btn-row row\\">
+      <Col tag=\\"div\\" widths={{...}}>
+        <div className=\\"col\\" />
+      </Col>
+      <Col tag=\\"div\\" widths={{...}}>
+        <div className=\\"col\\">
+          <Button color=\\"primary\\" className=\\"primary cancel\\" onClick={[Function: mockConstructor]} tag=\\"button\\">
+            <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary cancel btn btn-primary\\" aria-label={{...}}>
+              Back
+            </button>
+          </Button>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</BtnRow>"
+`;

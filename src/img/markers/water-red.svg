@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="40px" viewBox="0 0 30 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Water - Red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Map--UI" transform="translate(-476.000000, -717.000000)">
+            <g id="Markers" transform="translate(376.000000, 533.000000)">
+                <g id="Red" transform="translate(100.000000, 40.000000)">
+                    <g id="Water---Red" transform="translate(0.000000, 144.000000)">
+                        <g id="Marker---Red">
+                            <path d="M26.3636364,37.7142857 C26.3636364,38.9771023 21.2080677,40 14.8490178,40 C8.48890198,40 3.33333333,38.9771023 3.33333333,37.7142857 C3.33333333,36.4514691 8.48890198,35.4285714 14.8490178,35.4285714 C21.2080677,35.4285714 26.3636364,36.4514691 26.3636364,37.7142857" id="Shadow" fill-opacity="0.2" fill="#2B3841" fill-rule="evenodd" filter="url(#filter-1)"></path>
+                            <ellipse id="Oval-6" fill="#F8382B" fill-rule="nonzero" cx="15" cy="15.4285714" rx="15" ry="15.4285714"></ellipse>
+                            <polygon id="Triangle-2" fill="#F8382B" fill-rule="nonzero" transform="translate(15.013902, 32.183419) scale(1, -1) translate(-15.013902, -32.183419) " points="15.0853136 25.9541713 25.9407552 38.4126674 4.0870497 38.4126674"></polygon>
+                        </g>
+                        <path d="M15.1813207,24 C12.3192266,24 10,21.8843488 10,18.8186793 C10,14.5249909 15.1813207,9 15.1813207,9 C15.1813207,9 20.3626414,14.5249909 20.3626414,18.8186793 C20.3626414,22.0255381 18.0434148,24 15.1813207,24" id="Water" fill="#661414"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

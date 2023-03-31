@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalHeader /> renders correctly 1`] = `
+"<GlobalHeader>
+  <div>
+    <Navbar className=\\"global-header\\" style={{...}} expand=\\"lg\\" tag=\\"nav\\">
+      <nav style={{...}} className=\\"global-header navbar navbar-expand-lg\\">
+        <div className=\\"logo-parent-div\\">
+          <NavLink className=\\"kuja-kuja-logo-nav-link\\" to=\\"/\\" tag={[Function: NavLink]} onClick={[Function: bound toggleMenu]}>
+            <NavLink to=\\"/\\" onClick={[Function: bound onClick]} className=\\"kuja-kuja-logo-nav-link nav-link\\" activeClassName=\\"active\\" aria-current=\\"page\\">
+              <Route path=\\"\\\\\\\\/\\" exact={[undefined]} strict={[undefined]} location={[undefined]}>
+                <Link to=\\"/\\" className=\\"kuja-kuja-logo-nav-link nav-link active\\" style={{...}} aria-current=\\"page\\" onClick={[Function: bound onClick]} replace={false}>
+                  <a className=\\"kuja-kuja-logo-nav-link nav-link active\\" style={{...}} aria-current=\\"page\\" onClick={[Function]} href=\\"/\\">
+                    <img alt=\\"Logo\\" className=\\"customer-logo\\" src={{...}} />
+                  </a>
+                </Link>
+              </Route>
+            </NavLink>
+          </NavLink>
+        </div>
+      </nav>
+    </Navbar>
+    <Modal isOpen={false} toggle={[Function: bound toggleLogoutConfirmationModal]} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}} />
+  </div>
+</GlobalHeader>"
+`;

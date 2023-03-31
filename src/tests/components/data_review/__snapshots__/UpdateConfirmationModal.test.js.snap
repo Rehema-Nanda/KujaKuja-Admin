@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UpdateConfirmationModal /> renders correctly 1`] = `
+"<Modal isOpen={true} toggle={[Function: mockConstructor]} size=\\"lg\\" className=\\"daily-review-page\\" style={{...}} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}}>
+  <ModalHeader toggle={[Function: mockConstructor]} tag=\\"h5\\" wrapTag=\\"div\\" closeAriaLabel=\\"Close\\" charCode={215}>
+    Confirm Date Fix
+  </ModalHeader>
+  <ModalBody className=\\"confirmation-modal\\" tag=\\"div\\">
+    <Toolkitprovider keyField=\\"id\\" data={{...}} columns={{...}} bootstrap4={true}>
+      [function]
+    </Toolkitprovider>
+  </ModalBody>
+  <ModalFooter className=\\"confirmation-modal-footer\\" tag=\\"div\\">
+    <Button color=\\"primary\\" className=\\"primary\\" block={true} onClick={[Function: mockConstructor]} tag=\\"button\\">
+      Fix 1 response(s)
+    </Button>
+  </ModalFooter>
+</Modal>"
+`;

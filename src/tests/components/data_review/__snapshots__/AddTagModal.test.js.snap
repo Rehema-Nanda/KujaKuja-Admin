@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddTagModal component renders correctly 1`] = `
+"<AddTagModal isOpen={true} toggle={[Function: mockConstructor]} tags={{...}} tagResponse={[Function: mockConstructor]} setTagToState={[Function: mockConstructor]} selectedTag=\\"\\" isTagging={false}>
+  <Modal isOpen={true} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}}>
+    <Portal node={{...}}>
+      <Portal containerInfo={{...}}>
+        <div className=\\"\\">
+          <Fade onClick={[Function: bound handleBackdropClick]} onMouseDown={[Function: bound handleBackdropMouseDown]} onKeyUp={[Function: bound handleEscape]} onKeyDown={[Function: bound handleTab]} style={{...}} aria-labelledby={[undefined]} role=\\"dialog\\" tabIndex=\\"-1\\" in={true} mountOnEnter={false} unmountOnExit={false} appear={true} enter={true} exit={true} onEnter={[Function: noop]} onEntering={[Function: noop]} onEntered={[Function: bound onOpened]} onExit={[Function: noop]} onExiting={[Function: noop]} onExited={[Function: bound onClosed]} tag=\\"div\\" baseClass=\\"fade\\" baseClassActive=\\"show\\" timeout={300} cssModule={[undefined]} className=\\"modal\\" innerRef={[undefined]}>
+            <Transition onExited={[Function: bound onClosed]} onExiting={[Function: noop]} onExit={[Function: noop]} onEntered={[Function: bound onOpened]} onEntering={[Function: noop]} onEnter={[Function: noop]} timeout={300} exit={true} enter={true} appear={true} unmountOnExit={false} mountOnEnter={false} in={true}>
+              <div className=\\"modal fade\\" onClick={[Function: bound handleBackdropClick]} onMouseDown={[Function: bound handleBackdropMouseDown]} onKeyUp={[Function: bound handleEscape]} onKeyDown={[Function: bound handleTab]} style={{...}} aria-labelledby={[undefined]} role=\\"dialog\\" tabIndex=\\"-1\\">
+                <div className=\\"modal-dialog\\" role=\\"document\\">
+                  <div className=\\"modal-content\\">
+                    <ModalHeader toggle={[Function: mockConstructor]} tag=\\"h5\\" wrapTag=\\"div\\" closeAriaLabel=\\"Close\\" charCode={215}>
+                      <div className=\\"modal-header\\">
+                        <h5 className=\\"modal-title\\">
+                          Tag response
+                        </h5>
+                        <button type=\\"button\\" onClick={[Function: mockConstructor]} className=\\"close\\" aria-label=\\"Close\\">
+                          <span aria-hidden=\\"true\\">
+                            ×
+                          </span>
+                        </button>
+                      </div>
+                    </ModalHeader>
+                    <ModalBody tag=\\"div\\">
+                      <div className=\\"modal-body\\">
+                        <div>
+                          <ul className=\\"map-controls-popover-list tags-list\\">
+                            <Input type=\\"text\\" name=\\"tag\\" placeholder=\\"Search tags\\" onChange={[undefined]}>
+                              <input name=\\"tag\\" placeholder=\\"Search tags\\" onChange={[undefined]} type=\\"text\\" className=\\"form-control\\" />
+                            </Input>
+                            <li>
+                              <FormGroup check={true} tag=\\"div\\">
+                                <div className=\\"position-relative form-check\\">
+                                  <Label check={true} className=\\"map-controls-checkbox\\" tag=\\"label\\" widths={{...}}>
+                                    <label htmlFor={[undefined]} className=\\"map-controls-checkbox form-check-label\\">
+                                      <Input type=\\"radio\\" onChange={[Function: mockConstructor]} value=\\"TestTAg\\" checked={false}>
+                                        <input onChange={[Function: mockConstructor]} value=\\"TestTAg\\" checked={false} type=\\"radio\\" className=\\"form-check-input\\" />
+                                      </Input>
+                                      TestTAg
+                                    </label>
+                                  </Label>
+                                </div>
+                              </FormGroup>
+                            </li>
+                          </ul>
+                          <hr />
+                          <FormGroup row={true} tag=\\"div\\">
+                            <div className=\\"position-relative row form-group\\">
+                              <Col sm={12} tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col-sm-12\\">
+                                  <Input type=\\"text\\" name=\\"tag\\" id=\\"tag\\" placeholder=\\"Create new tag\\" onChange={[Function: mockConstructor]}>
+                                    <input name=\\"tag\\" id=\\"tag\\" placeholder=\\"Create new tag\\" onChange={[Function: mockConstructor]} type=\\"text\\" className=\\"form-control\\" />
+                                  </Input>
+                                </div>
+                              </Col>
+                            </div>
+                          </FormGroup>
+                        </div>
+                      </div>
+                    </ModalBody>
+                    <ModalFooter tag=\\"div\\">
+                      <div className=\\"modal-footer\\">
+                        <Button color=\\"primary\\" className=\\"primary cancel\\" onClick={[Function: mockConstructor]} tag=\\"button\\">
+                          <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary cancel btn btn-primary\\" aria-label={{...}}>
+                            Cancel
+                          </button>
+                        </Button>
+                         
+                        <Button color=\\"primary\\" className=\\"primary\\" onClick={[Function: mockConstructor]} disabled={true} tag=\\"button\\">
+                          <button type=\\"button\\" onClick={[Function: bound onClick]} disabled={true} className=\\"primary btn btn-primary disabled\\" aria-label={{...}}>
+                            Tag
+                          </button>
+                        </Button>
+                      </div>
+                    </ModalFooter>
+                  </div>
+                </div>
+              </div>
+            </Transition>
+          </Fade>
+          <Fade in={true} mountOnEnter={true} unmountOnExit={false} appear={true} enter={true} exit={true} onEnter={[Function: noop]} onEntering={[Function: noop]} onEntered={[Function: noop]} onExit={[Function: noop]} onExiting={[Function: noop]} onExited={[Function: noop]} tag=\\"div\\" baseClass=\\"fade\\" baseClassActive=\\"show\\" timeout={150} cssModule={[undefined]} className=\\"modal-backdrop\\">
+            <Transition onExited={[Function: noop]} onExiting={[Function: noop]} onExit={[Function: noop]} onEntered={[Function: noop]} onEntering={[Function: noop]} onEnter={[Function: noop]} timeout={150} exit={true} enter={true} appear={true} unmountOnExit={false} mountOnEnter={true} in={true}>
+              <div className=\\"modal-backdrop fade\\" />
+            </Transition>
+          </Fade>
+        </div>
+      </Portal>
+    </Portal>
+  </Modal>
+</AddTagModal>"
+`;

@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagFilterList component renders correctly 1`] = `
+"<TagFilterList history={{...}}>
+  <div className=\\"page\\">
+    <div className=\\"title-background-parent\\">
+      <div className=\\"title-background-shape\\" />
+    </div>
+    <Container className=\\"desktop-non-fluid\\" tag=\\"div\\">
+      <div className=\\"desktop-non-fluid container\\">
+        <Row tag=\\"div\\">
+          <div className=\\"row\\">
+            <Col tag=\\"div\\" widths={{...}}>
+              <div className=\\"col\\">
+                <h1 className=\\"left\\">
+                  Tag Filters
+                </h1>
+                <p>
+                  Manage your Tag Filters
+                </p>
+              </div>
+            </Col>
+            <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+              <div className=\\"col-sm-5 col-md-2\\">
+                <div className=\\"bulk-update-button\\">
+                  <Dropdown isOpen={false} toggle={[Function]} direction=\\"down\\" nav={false} active={false} addonType={false} inNavbar={false} setActiveFromChild={false}>
+                    <Manager tag=\\"div\\" className=\\"dropdown\\" onKeyDown={[Function: bound handleKeyDown]}>
+                      <div className=\\"dropdown\\" onKeyDown={[Function: bound handleKeyDown]}>
+                        <DropdownToggle caret={true} color=\\"primary\\" className=\\"primary\\" aria-haspopup={true}>
+                          <Target aria-haspopup={true} color=\\"primary\\" cssModule={[undefined]} className=\\"primary dropdown-toggle\\" component={[Function: Button]} onClick={[Function: bound onClick]} aria-expanded={false}>
+                            <Button aria-haspopup={true} color=\\"primary\\" cssModule={[undefined]} className=\\"primary dropdown-toggle\\" onClick={[Function: bound onClick]} aria-expanded={false} innerRef={[Function: targetRef]} tag=\\"button\\">
+                              <button type=\\"button\\" aria-haspopup={true} onClick={[Function: bound onClick]} aria-expanded={false} className=\\"primary dropdown-toggle btn btn-primary\\" aria-label={{...}}>
+                                Actions
+                              </button>
+                            </Button>
+                          </Target>
+                        </DropdownToggle>
+                        <DropdownMenu tag=\\"div\\" flip={true}>
+                          <div tabIndex=\\"-1\\" role=\\"menu\\" aria-hidden={true} className=\\"dropdown-menu\\" x-placement={[undefined]}>
+                            <DropdownItem className=\\"bulk-update-dropdown\\" onClick={[Function]} tag=\\"button\\" toggle={true}>
+                              <button type=\\"button\\" onClick={[Function: bound onClick]} tabIndex=\\"0\\" className=\\"bulk-update-dropdown dropdown-item\\">
+                                <span className=\\"bulk-update-dropdown-title\\">
+                                  Add filter
+                                </span>
+                              </button>
+                            </DropdownItem>
+                            <DropdownItem className=\\"bulk-update-dropdown\\" onClick={[Function]} tag=\\"button\\" toggle={true}>
+                              <button type=\\"button\\" onClick={[Function: bound onClick]} tabIndex=\\"0\\" className=\\"bulk-update-dropdown dropdown-item\\">
+                                <span className=\\"bulk-update-dropdown-title\\">
+                                  Apply all filters
+                                </span>
+                              </button>
+                            </DropdownItem>
+                          </div>
+                        </DropdownMenu>
+                      </div>
+                    </Manager>
+                  </Dropdown>
+                </div>
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+    </Container>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <div className=\\"white-page-bg\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col tag=\\"div\\" widths={{...}}>
+                <div className=\\"col\\">
+                  <div>
+                    <BootstrapTableContainer bootstrap4={true} size=\\"sm\\" responsive=\\"sm\\" keyField=\\"id\\" data={{...}} columns={{...}} defaultSorted={{...}} pagination={{...}} striped={true} hover={true} bordered={false} noDataIndication=\\"No Data\\">
+                      <DataProvider keyField=\\"id\\" columns={{...}} data={{...}}>
+                        <SortProvider keyField=\\"id\\" columns={{...}} defaultSorted={{...}} defaultSortDirection={[undefined]} sort={[undefined]} data={{...}}>
+                          <PaginationDataProvider pagination={{...}} data={{...}} bootstrap4={true} isRemotePagination={[Function]} remoteEmitter={{...}} onDataSizeChange={[undefined]}>
+                            <BootstrapTable bootstrap4={true} size=\\"sm\\" responsive=\\"sm\\" keyField=\\"id\\" data={{...}} columns={{...}} defaultSorted={{...}} pagination={{...}} striped={true} hover={true} bordered={false} noDataIndication=\\"No Data\\" sortOrder=\\"asc\\" onSort={[Function]} sortField={{...}} setRemoteEmitter={[undefined]} remote={false} condensed={false} selectRow={{...}} expandRow={{...}} cellEdit={{...}} filterPosition=\\"inline\\">
+                              <div className=\\"react-bootstrap-table\\">
+                                <table id={[undefined]} className=\\"table table-striped table-hover\\">
+                                  <Header columns={{...}} className={[undefined]} wrapperClasses={[undefined]} sortField={{...}} sortOrder=\\"asc\\" onSort={[Function]} globalSortCaret={[undefined]} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} selectRow={{...}} expandRow={{...}} filterPosition=\\"inline\\">
+                                    <thead className={[undefined]}>
+                                      <tr className={[undefined]}>
+                                        <HeaderCell index={0} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"asc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                          <th tabIndex={0} aria-label=\\"Tag sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable\\">
+                                            Tag
+                                            <SortSymbol>
+                                              <span className=\\"order-4\\" />
+                                            </SortSymbol>
+                                          </th>
+                                        </HeaderCell>
+                                        <HeaderCell index={1} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"asc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                          <th tabIndex={0} aria-label=\\"Search Text sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable\\">
+                                            Search Text
+                                            <SortSymbol>
+                                              <span className=\\"order-4\\" />
+                                            </SortSymbol>
+                                          </th>
+                                        </HeaderCell>
+                                        <HeaderCell index={2} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"asc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                          <th tabIndex={0} aria-label=\\"Status sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable\\">
+                                            Status
+                                            <SortSymbol>
+                                              <span className=\\"order-4\\" />
+                                            </SortSymbol>
+                                          </th>
+                                        </HeaderCell>
+                                        <HeaderCell index={3} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"asc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                          <th tabIndex={0} aria-label=\\"Created At sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable\\">
+                                            Created At
+                                            <SortSymbol>
+                                              <span className=\\"order-4\\" />
+                                            </SortSymbol>
+                                          </th>
+                                        </HeaderCell>
+                                        <HeaderCell index={4} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"asc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                          <th tabIndex={0} className=\\"column-right\\">
+                                            Results: 1
+                                          </th>
+                                        </HeaderCell>
+                                      </tr>
+                                    </thead>
+                                  </Header>
+                                  <Body className={[undefined]} data={{...}} keyField=\\"id\\" tabIndexCell={[undefined]} columns={{...}} isEmpty={false} visibleColumnSize={5} noDataIndication=\\"No Data\\" cellEdit={{...}} selectRow={{...}} expandRow={{...}} rowStyle={[undefined]} rowClasses={[undefined]} rowEvents={[undefined]}>
+                                    <tbody className={[undefined]}>
+                                      <SimpleRow row={{...}} tabIndexCell={[undefined]} columns={{...}} keyField=\\"id\\" cellEdit={{...}} value={[undefined]} rowIndex={0} visibleColumnSize={5} attrs={{...}} style={{...}} className={{...}} editable={true}>
+                                        <tr style={{...}} className={{...}}>
+                                          <RowPureContent shouldUpdate={false} tabIndexStart={-1} row={{...}} columns={{...}} keyField=\\"id\\" cellEdit={{...}} value={[undefined]} rowIndex={0} editable={true}>
+                                            <Cell row={{...}} editable={true} rowIndex={0} columnIndex={0} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]}>
+                                              <td>
+                                                <small>
+                                                  <strong>
+                                                    #
+                                                    testTag
+                                                  </strong>
+                                                </small>
+                                              </td>
+                                            </Cell>
+                                            <Cell row={{...}} editable={true} rowIndex={0} columnIndex={1} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]}>
+                                              <td>
+                                                <small>
+                                                  test|sample|jest
+                                                </small>
+                                              </td>
+                                            </Cell>
+                                            <Cell row={{...}} editable={true} rowIndex={0} columnIndex={2} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]}>
+                                              <td />
+                                            </Cell>
+                                            <Cell row={{...}} editable={true} rowIndex={0} columnIndex={3} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]}>
+                                              <td>
+                                                05-Jan-2020 12:13
+                                              </td>
+                                            </Cell>
+                                            <Cell row={{...}} editable={true} rowIndex={0} columnIndex={4} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"column-right\\">
+                                              <td className=\\"column-right\\">
+                                                <Button color=\\"primary\\" className=\\"primary\\" onClick={[Function: onClick]} tag=\\"button\\">
+                                                  <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary btn btn-primary\\" aria-label={{...}}>
+                                                    View
+                                                  </button>
+                                                </Button>
+                                              </td>
+                                            </Cell>
+                                          </RowPureContent>
+                                        </tr>
+                                      </SimpleRow>
+                                    </tbody>
+                                  </Body>
+                                </table>
+                              </div>
+                            </BootstrapTable>
+                            <PaginationHandler sizePerPageList={{...}} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} dataSize={1} currPage={1} currSizePerPage={25}>
+                              <Pagination sizePerPageList={{...}} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} paginationSize={5} showTotal={false} pageListRenderer={{...}} pageButtonRenderer={{...}} sizePerPageRenderer={{...}} paginationTotalRenderer={{...}} sizePerPageOptionRenderer={{...}} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} dataSize={1} currPage={1} currSizePerPage={25} lastPage={1} totalPages={1}>
+                                <div className=\\"row react-bootstrap-table-pagination\\">
+                                  <div className=\\"col-md-6 col-xs-6 col-sm-6 col-lg-6\\">
+                                    <SizePerPageDropdownAdapter sizePerPageList={{...}} currSizePerPage={25} hideSizePerPage={false} sizePerPageRenderer={{...}} sizePerPageOptionRenderer={{...}} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                      <SizePerPageDropDown sizePerPageList={{...}} currSizePerPage=\\"25\\" hideSizePerPage={false} sizePerPageRenderer={{...}} sizePerPageOptionRenderer={{...}} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} options={{...}} optionRenderer={{...}} onClick={[Function: bound toggleDropDown]} onBlur={[Function: bound closeDropDown]} open={false} hidden={false} btnContextual=\\"btn-default btn-secondary\\" variation=\\"dropdown\\" className=\\"\\">
+                                        <span style={{...}} className=\\"react-bs-table-sizePerPage-dropdown dropdown\\">
+                                          <button id=\\"pageDropDown\\" className=\\"btn btn-default btn-secondary dropdown-toggle\\" data-toggle=\\"dropdown\\" aria-expanded={false} onClick={[Function: bound toggleDropDown]} onBlur={[Function: bound closeDropDown]}>
+                                            25
+                                             
+                                          </button>
+                                          <ul className=\\"dropdown-menu \\" role=\\"menu\\" aria-labelledby=\\"pageDropDown\\">
+                                            <SizePerPageOption text=\\"25\\" page={25} bootstrap4={true} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" className=\\"dropdown-item\\" data-page={25} onMouseDown={[Function: onMouseDown]}>
+                                                25
+                                              </a>
+                                            </SizePerPageOption>
+                                            <SizePerPageOption text=\\"50\\" page={50} bootstrap4={true} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" className=\\"dropdown-item\\" data-page={50} onMouseDown={[Function: onMouseDown]}>
+                                                50
+                                              </a>
+                                            </SizePerPageOption>
+                                            <SizePerPageOption text=\\"100\\" page={100} bootstrap4={true} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" className=\\"dropdown-item\\" data-page={100} onMouseDown={[Function: onMouseDown]}>
+                                                100
+                                              </a>
+                                            </SizePerPageOption>
+                                            <SizePerPageOption text=\\"ALL\\" page={1} bootstrap4={true} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" className=\\"dropdown-item\\" data-page={1} onMouseDown={[Function: onMouseDown]}>
+                                                ALL
+                                              </a>
+                                            </SizePerPageOption>
+                                          </ul>
+                                        </span>
+                                      </SizePerPageDropDown>
+                                    </SizePerPageDropdownAdapter>
+                                  </div>
+                                  <div className=\\"react-bootstrap-table-pagination-list col-md-6 col-xs-6 col-sm-6 col-lg-6\\">
+                                    <PaginationListAdapter alwaysShowAllBtns={false} withFirstAndLast={true} paginationSize={5} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" currPage={1} currSizePerPage={25} pageStartIndex={1} lastPage={1} totalPages={1} pageButtonRenderer={{...}} onPageChange={[Function: bound handleChangePage]}>
+                                      <PaginatonList pageButtonRenderer={{...}} onPageChange={[Function: bound handleChangePage]} pages={{...}}>
+                                        <ul className=\\"pagination react-bootstrap-table-page-btns-ul\\">
+                                          <PageButton page={1} active={true} disabled={false} title=\\"1\\" onPageChange={[Function: bound handleChangePage]}>
+                                            <li className=\\"active page-item\\" title=\\"1\\">
+                                              <a href=\\"#\\" onClick={[Function: bound handleClick]} className=\\"page-link\\">
+                                                1
+                                              </a>
+                                            </li>
+                                          </PageButton>
+                                        </ul>
+                                      </PaginatonList>
+                                    </PaginationListAdapter>
+                                  </div>
+                                </div>
+                              </Pagination>
+                            </PaginationHandler>
+                          </PaginationDataProvider>
+                        </SortProvider>
+                      </DataProvider>
+                    </BootstrapTableContainer>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </div>
+    </Container>
+  </div>
+</TagFilterList>"
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FileUploader /> renders corectly 1`] = `
+"<div style={{...}} className=\\"d-flex justify-content-start\\">
+  <div>
+    <div style={{...}}>
+      <img alt={[undefined]} id={[undefined]} style={{...}} src=\\"\\" />
+      <div style={{...}}>
+        <img alt=\\"Edit Icon\\" style={{...}} src={{...}} />
+      </div>
+    </div>
+  </div>
+  <div style={{...}}>
+    <h3 style={{...}} />
+    <input name=\\"file\\" onChange={[Function]} type=\\"file\\" style={{...}} />
+  </div>
+</div>"
+`;

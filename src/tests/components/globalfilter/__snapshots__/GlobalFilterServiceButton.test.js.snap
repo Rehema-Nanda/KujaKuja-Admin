@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFilterServiceButton /> renders correctly 1`] = `
+"<div>
+  <Button id={[undefined]} data-service-id=\\"1\\" className=\\"service-toggle-on\\" onClick={[Function: onClick]} color=\\"secondary\\" tag=\\"button\\">
+    <img alt=\\"\\" src={[undefined]} />
+  </Button>
+  <mockConstructor placement=\\"bottom\\" target={[undefined]} isOpen={false} toggle={[Function: bound ]} />
+</div>"
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner component renders correctly 1`] = `
+"<Banner elementAction=\\"list\\" pageTitle=\\"Countries\\" buttonFunction={[Function: mockConstructor]} buttonDisabled={false}>
+  <Container tag=\\"div\\">
+    <div className=\\"container\\">
+      <Row tag=\\"div\\">
+        <div className=\\"row\\">
+          <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+            <div className=\\"col-sm-7 col-md-8\\">
+              <div className=\\"page-title\\">
+                <h1 className=\\"left\\">
+                  Countries
+                </h1>
+                <p>
+                  Manage your
+                   
+                  Countries
+                </p>
+              </div>
+            </div>
+          </Col>
+          <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+            <div className=\\"col-sm-5 col-md-4\\">
+              <div className=\\"page-title\\" />
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </div>
+  </Container>
+</Banner>"
+`;

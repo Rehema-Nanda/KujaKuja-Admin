@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyDataView /> renders correctly 1`] = `
+"<MyDataView location={{...}} history={{...}}>
+  <div className=\\"page\\">
+    <div className=\\"title-background-parent\\">
+      <div className=\\"title-background-shape\\" />
+    </div>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <Row tag=\\"div\\">
+          <div className=\\"row\\">
+            <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+              <div className=\\"col-sm-7 col-md-8\\">
+                <div className=\\"page-title\\">
+                  <h1 className=\\"left\\">
+                    Response
+                  </h1>
+                  <p />
+                </div>
+              </div>
+            </Col>
+            <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+              <div className=\\"col-sm-5 col-md-4\\">
+                <div className=\\"page-title\\">
+                  <Button color=\\"primary\\" className=\\"primary\\" onClick={[Function: onClick]} tag=\\"button\\">
+                    <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary btn btn-primary\\" aria-label={{...}}>
+                      Responses List
+                    </button>
+                  </Button>
+                </div>
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+    </Container>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <div className=\\"white-page-bg\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col lg={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-lg-8 offset-lg-2\\">
+                  <div className=\\"list-feed\\">
+                    <AvForm model={{...}} tag={[Function: Form]} validationEvent={{...}} method=\\"get\\" onSubmit={[Function: onSubmit]} onKeyDown={[Function: onKeyDown]} onValidSubmit={[Function: onValidSubmit]} onInvalidSubmit={[Function: onInvalidSubmit]}>
+                      <Form noValidate={true} action=\\"#\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\" tag=\\"form\\">
+                        <form noValidate={true} action=\\"#\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\">
+                          <Row tag=\\"div\\">
+                            <div className=\\"row\\">
+                              <Col tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col\\">
+                                  <AvField type=\\"text\\" name=\\"id\\" label=\\"Id\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"id\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"id\\" className=\\"\\">
+                                              Id
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"id\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"id\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"id\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"id\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"id\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"id\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"email\\" name=\\"email\\" label=\\"Email\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"email\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"email\\" className=\\"\\">
+                                              Email
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"email\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"email\\" name=\\"email\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"email\\" name=\\"email\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"email\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"email\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"email\\" type=\\"email\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"service_point\\" label=\\"Service Point\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"service_point\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"service_point\\" className=\\"\\">
+                                              Service Point
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"service_point\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"service_point\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"service_point\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"service_point\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"service_point\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"service_point\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"service_type\\" label=\\"Service Type\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"service_type\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"service_type\\" className=\\"\\">
+                                              Service Type
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"service_type\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"service_type\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"service_type\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"service_type\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"service_type\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"service_type\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"location\\" label=\\"Location\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"location\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"location\\" className=\\"\\">
+                                              Location
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"location\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"location\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"location\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"location\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"location\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"location\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"country\\" label=\\"Country\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"country\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"country\\" className=\\"\\">
+                                              Country
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"country\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"country\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"country\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"country\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"country\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"country\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"checkbox\\" name=\\"satisfied\\" label=\\"Satisfied\\" checked={[undefined]} disabled={true}>
+                                    <AvGroup check={true} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={true} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-check disabled\\">
+                                          <AvInput id=\\"satisfied\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"checkbox\\" name=\\"satisfied\\" checked={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"checkbox\\" name=\\"satisfied\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} className=\\"is-untouched is-pristine av-valid\\" id=\\"satisfied\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"satisfied\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} id=\\"satisfied\\" type=\\"checkbox\\" className=\\"is-untouched is-pristine av-valid form-check-input\\" />
+                                            </Input>
+                                          </AvInput>
+                                          <Label for=\\"satisfied\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"satisfied\\" className=\\"\\">
+                                              Satisfied
+                                            </label>
+                                          </Label>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"textarea\\" rows=\\"5\\" name=\\"idea\\" label=\\"Idea\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"idea\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"idea\\" className=\\"\\">
+                                              Idea
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"idea\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"textarea\\" rows=\\"5\\" name=\\"idea\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"textarea\\" rows=\\"5\\" name=\\"idea\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"idea\\">
+                                              <textarea size={[undefined]} disabled={true} readOnly={[undefined]} rows=\\"5\\" name=\\"idea\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"idea\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"lat\\" label=\\"Lat\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"lat\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"lat\\" className=\\"\\">
+                                              Lat
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"lat\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"lat\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"lat\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"lat\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"lat\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"lat\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"lng\\" label=\\"Lng\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"lng\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"lng\\" className=\\"\\">
+                                              Lng
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"lng\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"lng\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"lng\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"lng\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"lng\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"lng\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"created_at\\" label=\\"Created At\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"created_at\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"created_at\\" className=\\"\\">
+                                              Created At
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"created_at\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"created_at\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"created_at\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"created_at\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"created_at\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"created_at\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"updated_at\\" label=\\"Updated At\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"updated_at\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"updated_at\\" className=\\"\\">
+                                              Updated At
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"updated_at\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"updated_at\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"updated_at\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"updated_at\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"updated_at\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"updated_at\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"uploaded_at\\" label=\\"Uploaded At\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"uploaded_at\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"uploaded_at\\" className=\\"\\">
+                                              Uploaded At
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"uploaded_at\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"uploaded_at\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"uploaded_at\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"uploaded_at\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"uploaded_at\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"uploaded_at\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"text\\" name=\\"response_type\\" label=\\"Response Type\\" value={[undefined]} disabled={true}>
+                                    <AvGroup check={false} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"response_type\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"response_type\\" className=\\"\\">
+                                              Response Type
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"response_type\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"response_type\\" value={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"text\\" name=\\"response_type\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"response_type\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"response_type\\" value=\\"\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"response_type\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"checkbox\\" name=\\"is_starred\\" label=\\"Is Starred\\" checked={[undefined]} disabled={true}>
+                                    <AvGroup check={true} disabled={true} row={false}>
+                                      <FormGroup className=\\"\\" check={true} disabled={true} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-check disabled\\">
+                                          <AvInput id=\\"is_starred\\" className={[undefined]} size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"checkbox\\" name=\\"is_starred\\" checked={[undefined]} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={true} readOnly={[undefined]} type=\\"checkbox\\" name=\\"is_starred\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} className=\\"is-untouched is-pristine av-valid\\" id=\\"is_starred\\">
+                                              <input size={[undefined]} disabled={true} readOnly={[undefined]} name=\\"is_starred\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} id=\\"is_starred\\" type=\\"checkbox\\" className=\\"is-untouched is-pristine av-valid form-check-input\\" />
+                                            </Input>
+                                          </AvInput>
+                                          <Label for=\\"is_starred\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"is_starred\\" className=\\"\\">
+                                              Is Starred
+                                            </label>
+                                          </Label>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                        </form>
+                      </Form>
+                    </AvForm>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </div>
+    </Container>
+  </div>
+</MyDataView>"
+`;

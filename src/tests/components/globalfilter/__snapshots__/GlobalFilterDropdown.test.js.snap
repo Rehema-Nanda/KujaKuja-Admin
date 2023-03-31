@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFilterDropdown /> renders correctly 1`] = `
+"<div>
+  <div id=\\"ServicePointsDropDown\\" onClick={[Function: bound ]} className=\\"map-controls-button\\">
+    <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+      1
+    </Badge>
+     
+    <div className=\\"map-controls-button-caret\\">
+      <FontAwesomeIcon icon=\\"caret-down\\" />
+    </div>
+  </div>
+  <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"ServicePointsDropDown\\" toggle={[Function: bound ]} className=\\"map-controls-popover\\">
+    <PopoverBody tag=\\"div\\">
+      <ul className=\\"map-controls-popover-list\\">
+        <li>
+          <GlobalFilterCheckbox item={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[undefined]} selectItemHandlerArgs={[undefined]} selectedItems={{...}} isServicePoint={false} />
+        </li>
+      </ul>
+    </PopoverBody>
+  </mockConstructor>
+</div>"
+`;

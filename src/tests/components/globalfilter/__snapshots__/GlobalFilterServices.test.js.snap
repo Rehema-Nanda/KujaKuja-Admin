@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFilterServices /> renders correctly 1`] = `
+"<div>
+  <div className=\\"map-controls-service-container\\">
+    <GlobalFilterServiceButton id=\\"1\\" tipId=\\"serviceType1\\" iconoff={{...}} iconon={{...}} name=\\"test\\" toggleServiceType={[undefined]} selectedServiceTypes={[undefined]} />
+  </div>
+</div>"
+`;

@@ -1,0 +1,34 @@
+# This file was moved from /cloud_build/cloudbuild.arc-dev.ci.yaml because the Google Cloud Build GitHub App only supports a single config file at the root of the project.
+# It should be identical to /cloud_build/cloudbuild.arc-dev.yaml, except for these header comments and the version specified in the 'gcloud app deploy' command.
+# See https://cloud.google.com/cloud-build/docs/run-builds-with-github-checks and https://issuetracker.google.com/issues/113814820 for more information.
+
+steps:
+
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install']
+
+#name: 'gcr.io/cloud-builders/npm'
+#args: ['run', 'test']
+
+- name: 'eu.gcr.io/kujakuja-dev/cloud-build-api'
+  args: ['mv', 'src/AppConfig.js.template', 'src/AppConfig.js']
+
+- name: 'eu.gcr.io/kujakuja-dev/envsubst'
+  args: ['src/AppConfig.js']
+  env:
+  - 'ROOT_API_URL=https://api.dev.alight.kujakuja.com'
+  secretEnv:
+  - 'MAPBOX_GL_ACCESS_TOKEN'
+
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'build']
+
+- name: 'gcr.io/cloud-builders/gcloud'
+  args: ['app', 'deploy', '--no-promote', '--version=cloud-build-ci', '--project=kujakuja-arc-dev']
+
+secrets:
+  - kmsKeyName: projects/kujakuja-dev/locations/europe/keyRings/cloud-build/cryptoKeys/config-secrets
+    secretEnv:
+      MAPBOX_GL_ACCESS_TOKEN: CiQAnpDxcUldqeVAEUG1HAc+YEHq0bB35dtMgzaCmu6/f3czILQSjQEA/Du3ijWYdBvmFDUPcTVb5yG1MURAmf9V+dDp+aXODTqZSJEbRgk51FXEkyyYfiu6FbA9uIVv0jUEGq4t0zydet62sQoZezEjaNeH90yfuyON4lpfDp5VoVvlOeNeB5IiugcdNCG9YVHrLSsZuLESGerdWME5CxDcbneyJitG5szfcW/C5XXFoTW4S6o=
+
+timeout: '900s'

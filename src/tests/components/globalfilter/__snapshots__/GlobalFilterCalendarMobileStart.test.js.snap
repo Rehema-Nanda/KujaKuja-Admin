@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFilterCalendarMobileStart /> renders without crashing 1`] = `
+"<div className=\\"date-pickers-holder fadein\\">
+  <DatePicker inline={true} className=\\"date-picker-startdate\\" withPortal={false} selected={[undefined]} selectsStart={true} startDate={[undefined]} endDate={{...}} calendarContainer={[Function: bound calendarContainer]} maxDate={{...}} onChange={[Function: bound handleDateChangeStart]} allowSameDay={false} dateFormat=\\"L\\" dateFormatCalendar=\\"MMMM YYYY\\" disabled={false} disabledKeyboardNavigation={false} dropdownMode=\\"scroll\\" onFocus={[Function: onFocus]} onBlur={[Function: onBlur]} onKeyDown={[Function: onKeyDown]} onInputClick={[Function: onInputClick]} onSelect={[Function: onSelect]} onClickOutside={[Function: onClickOutside$$1]} onMonthChange={[Function: onMonthChange]} preventOpenOnFocus={false} onYearChange={[Function: onYearChange]} onInputError={[Function: onInputError]} monthsShown={1} readOnly={false} shouldCloseOnSelect={true} showTimeSelect={false} timeIntervals={30} timeCaption=\\"Time\\" previousMonthButtonLabel=\\"Previous Month\\" nextMonthButtonLabel=\\"Next month\\" renderDayContents={[Function: renderDayContents]} />
+</div>"
+`;

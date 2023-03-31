@@ -1,0 +1,786 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyData component renders correctly 1`] = `
+"<MyData history={{...}} surveyTypes={{...}} booleanOptions={{...}}>
+  <Toolkitprovider keyField=\\"id\\" data={{...}} columns={{...}} bootstrap4={true}>
+    <ToolkitProvider keyField=\\"id\\" data={{...}} columns={{...}} bootstrap4={true} search={false} exportCSV={false}>
+      <div className=\\"page\\">
+        <div className=\\"title-background-parent\\">
+          <div className=\\"title-background-shape\\" />
+        </div>
+        <Container fluid={true} className=\\"desktop-non-fluid\\" tag=\\"div\\">
+          <div className=\\"desktop-non-fluid container-fluid\\">
+            <Row tag=\\"div\\">
+              <div className=\\"row\\">
+                <Col tag=\\"div\\" widths={{...}}>
+                  <div className=\\"col\\">
+                    <h1 className=\\"left\\">
+                      My Data
+                    </h1>
+                    <p>
+                      Quickly view, analyze and export raw data
+                    </p>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+        <Container fluid={true} className=\\"desktop-non-fluid\\" tag=\\"div\\">
+          <div className=\\"desktop-non-fluid container-fluid\\">
+            <Row tag=\\"div\\">
+              <div className=\\"row\\">
+                <Col tag=\\"div\\" widths={{...}}>
+                  <div className=\\"col\\">
+                    <GlobalFilter countries={{...}} locations={{...}} servicePoints={{...}} serviceTypes={{...}} users={{...}} surveyTypes={{...}} booleanOptions={{...}} selectedCountries={{...}} selectedLocations={{...}} selectedServiceTypes={{...}} selectedServicePoints={{...}} selectedUsers={{...}} selectedSurveyTypes={{...}} selectedSatisfied={{...}} selectedFreshIdea={{...}} selectLocation={[Function: bound ]} selectUser={[Function: bound ]} selectSurveyType={[Function: bound ]} selectSatisfied={[Function: bound ]} selectFreshIdea={[Function: bound ]} setDateStartEnd={[Function: bound ]} dateStart={{...}} dateEnd={{...}} dateEndForExclusiveQuery={[Function: bound ]} toggleServiceType={[Function: bound ]} toggleRefresh={[Function: bound toggleRefresh]} setData={[Function: bound setData]} resetFilters={[Function]} clearSearch={false} setClearSearchFalse={[Function]} defaultSearchValue=\\"\\" isServicePoint={true}>
+                      <div>
+                        <div className=\\"globalfilter-container \\">
+                          <div className=\\"globalfilter-desktop\\">
+                            <div className=\\"globalfilter-search-container\\">
+                              <GlobalFilterSearch setData={[Function: bound setData]} toggleRefresh={[Function: bound toggleRefresh]} placeholder=\\"Idea Search\\" clearSearch={false} setClearSearchFalse={[Function]} defaultSearchValue=\\"\\">
+                                <div>
+                                  <div className=\\"map-controls-search-icon\\">
+                                    <FontAwesomeIcon icon=\\"search\\">
+                                      <i className=\\"fa\\" />
+                                    </FontAwesomeIcon>
+                                  </div>
+                                  <Input type=\\"text\\" innerRef={[Function: innerRef]} name=\\"\\" onChange={[Function: bound onChange]} id=\\"search\\" className=\\"map-controls-search\\" placeholder=\\"Idea Search\\" defaultValue=\\"\\">
+                                    <input name=\\"\\" onChange={[Function: bound onChange]} id=\\"search\\" placeholder=\\"Idea Search\\" defaultValue=\\"\\" type=\\"text\\" className=\\"map-controls-search form-control\\" />
+                                  </Input>
+                                </div>
+                              </GlobalFilterSearch>
+                            </div>
+                            <div className=\\"globalfilter-locations-container\\">
+                              <GlobalFilterDropdown id=\\"CountriesDropDown\\" title=\\"Countries\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[Function: bound ]} selectItemHandlerArgs={{...}} selectedItems={{...}} showSearch={true} isServicePoint={false}>
+                                <div>
+                                  <div id=\\"CountriesDropDown\\" onClick={[Function: bound ]} className=\\"map-controls-button\\">
+                                    <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+                                      <span className=\\"badge badge-secondary badge-pill\\">
+                                        All
+                                      </span>
+                                    </Badge>
+                                     
+                                    Countries
+                                    <div className=\\"map-controls-button-caret\\">
+                                      <FontAwesomeIcon icon=\\"caret-down\\">
+                                        <i className=\\"fa\\" />
+                                      </FontAwesomeIcon>
+                                    </div>
+                                  </div>
+                                  <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"CountriesDropDown\\" toggle={[Function: bound ]} className=\\"map-controls-popover\\">
+                                    Popover
+                                  </mockConstructor>
+                                </div>
+                              </GlobalFilterDropdown>
+                              <div className=\\"globalfilter-locations-spacer\\" />
+                              <GlobalFilterDropdown id=\\"LocationsDropDown\\" className=\\"location-dropdown\\" title=\\"Locations\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[Function: bound ]} selectItemHandlerArgs={{...}} selectedItems={{...}} showSearch={true} isServicePoint={false}>
+                                <div>
+                                  <div id=\\"LocationsDropDown\\" onClick={[Function: bound ]} className=\\"map-controls-button\\">
+                                    <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+                                      <span className=\\"badge badge-secondary badge-pill\\">
+                                        All
+                                      </span>
+                                    </Badge>
+                                     
+                                    Locations
+                                    <div className=\\"map-controls-button-caret\\">
+                                      <FontAwesomeIcon icon=\\"caret-down\\">
+                                        <i className=\\"fa\\" />
+                                      </FontAwesomeIcon>
+                                    </div>
+                                  </div>
+                                  <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"LocationsDropDown\\" toggle={[Function: bound ]} className=\\"map-controls-popover\\">
+                                    Popover
+                                  </mockConstructor>
+                                </div>
+                              </GlobalFilterDropdown>
+                            </div>
+                            <div className=\\"globalfilter-calendar-container\\">
+                              <GlobalFilterCalendar title=\\"From:\\" id=\\"CalendarDropDown\\" withPortal={false} setDateStartEnd={[Function: bound ]} type=\\"calendar_date\\" dateStart={{...}} dateEnd={{...}}>
+                                <div className=\\"date-pickers-holder\\">
+                                  <button type=\\"button\\" onClick={[Function: onClick]} className=\\"left-right-button left-button\\">
+                                    <div className=\\"left-right-arrow left-arrow\\" />
+                                  </button>
+                                  <DatePicker className=\\"date-picker-startdate\\" withPortal={false} selected={{...}} selectsStart={true} monthsShown={2} useWeekdaysShort={true} onFocus={[Function: bound datePickerInputFocusHandler]} startDate={{...}} endDate={{...}} maxDate={{...}} calendarContainer={[Function: bound calendarContainer]} popperPlacement=\\"bottom-start\\" popperModifiers={{...}} onSelect={[Function: bound handleDateChangeStart]} allowSameDay={false} dateFormat=\\"L\\" dateFormatCalendar=\\"MMMM YYYY\\" onChange={[Function: onChange]} disabled={false} disabledKeyboardNavigation={false} dropdownMode=\\"scroll\\" onBlur={[Function: onBlur]} onKeyDown={[Function: onKeyDown]} onInputClick={[Function: onInputClick]} onClickOutside={[Function: onClickOutside$$1]} onMonthChange={[Function: onMonthChange]} preventOpenOnFocus={false} onYearChange={[Function: onYearChange]} onInputError={[Function: onInputError]} readOnly={false} shouldCloseOnSelect={true} showTimeSelect={false} timeIntervals={30} timeCaption=\\"Time\\" previousMonthButtonLabel=\\"Previous Month\\" nextMonthButtonLabel=\\"Next month\\" renderDayContents={[Function: renderDayContents]}>
+                                    <PopperComponent className={[undefined]} hidePopper={true} popperModifiers={{...}} targetComponent={{...}} popperContainer={[undefined]} popperComponent={{...}} popperPlacement=\\"bottom-start\\" popperProps={{...}}>
+                                      <Manager>
+                                        <Reference>
+                                          <InnerReference setReferenceNode={[Function]}>
+                                            <div className=\\"react-datepicker-wrapper\\">
+                                              <div className=\\"react-datepicker__input-container\\">
+                                                <input type=\\"text\\" value=\\"03/25/2015\\" onBlur={[Function]} onChange={[Function]} onClick={[Function]} onFocus={[Function]} onKeyDown={[Function]} id={[undefined]} name={[undefined]} autoFocus={[undefined]} placeholder={[undefined]} disabled={false} autoComplete={[undefined]} className=\\"date-picker-startdate\\" title={[undefined]} readOnly={false} required={[undefined]} tabIndex={[undefined]} />
+                                              </div>
+                                            </div>
+                                          </InnerReference>
+                                        </Reference>
+                                      </Manager>
+                                    </PopperComponent>
+                                  </DatePicker>
+                                  <span className=\\"dash \\">
+                                     - 
+                                  </span>
+                                  <DatePicker className=\\"date-picker-enddate \\" withPortal={false} selected={{...}} selectsEnd={true} monthsShown={2} useWeekdaysShort={true} onFocus={[Function: bound datePickerInputFocusHandler]} startDate={{...}} endDate={{...}} maxDate={{...}} calendarContainer={[Function: bound calendarContainer]} popperPlacement=\\"bottom-start\\" popperModifiers={{...}} onSelect={[Function: bound handleDateChangeEnd]} allowSameDay={false} dateFormat=\\"L\\" dateFormatCalendar=\\"MMMM YYYY\\" onChange={[Function: onChange]} disabled={false} disabledKeyboardNavigation={false} dropdownMode=\\"scroll\\" onBlur={[Function: onBlur]} onKeyDown={[Function: onKeyDown]} onInputClick={[Function: onInputClick]} onClickOutside={[Function: onClickOutside$$1]} onMonthChange={[Function: onMonthChange]} preventOpenOnFocus={false} onYearChange={[Function: onYearChange]} onInputError={[Function: onInputError]} readOnly={false} shouldCloseOnSelect={true} showTimeSelect={false} timeIntervals={30} timeCaption=\\"Time\\" previousMonthButtonLabel=\\"Previous Month\\" nextMonthButtonLabel=\\"Next month\\" renderDayContents={[Function: renderDayContents]}>
+                                    <PopperComponent className={[undefined]} hidePopper={true} popperModifiers={{...}} targetComponent={{...}} popperContainer={[undefined]} popperComponent={{...}} popperPlacement=\\"bottom-start\\" popperProps={{...}}>
+                                      <Manager>
+                                        <Reference>
+                                          <InnerReference setReferenceNode={[Function]}>
+                                            <div className=\\"react-datepicker-wrapper\\">
+                                              <div className=\\"react-datepicker__input-container\\">
+                                                <input type=\\"text\\" value=\\"04/01/2015\\" onBlur={[Function]} onChange={[Function]} onClick={[Function]} onFocus={[Function]} onKeyDown={[Function]} id={[undefined]} name={[undefined]} autoFocus={[undefined]} placeholder={[undefined]} disabled={false} autoComplete={[undefined]} className=\\"date-picker-enddate \\" title={[undefined]} readOnly={false} required={[undefined]} tabIndex={[undefined]} />
+                                              </div>
+                                            </div>
+                                          </InnerReference>
+                                        </Reference>
+                                      </Manager>
+                                    </PopperComponent>
+                                  </DatePicker>
+                                  <button type=\\"button\\" onClick={[Function: onClick]} className=\\"left-right-button right-button\\">
+                                    <div className=\\"left-right-arrow right-arrow\\" />
+                                  </button>
+                                </div>
+                              </GlobalFilterCalendar>
+                            </div>
+                            <div className=\\"globalfilter-service-container\\">
+                              <GlobalFilterServices serviceTypes={{...}} toggleServiceType={[Function: bound ]} selectedServiceTypes={{...}}>
+                                <div>
+                                  <div className=\\"map-controls-service-container\\">
+                                    <GlobalFilterServiceButton id=\\"1\\" tipId=\\"serviceType1\\" iconoff={{...}} iconon={{...}} name=\\"Test Service Type\\" toggleServiceType={[Function: bound ]} selectedServiceTypes={{...}}>
+                                      <div>
+                                        <Button id=\\"serviceType1\\" data-service-id=\\"1\\" className=\\"service-toggle-off\\" onClick={[Function: onClick]} color=\\"secondary\\" tag=\\"button\\">
+                                          <button type=\\"button\\" id=\\"serviceType1\\" data-service-id=\\"1\\" onClick={[Function: bound onClick]} className=\\"service-toggle-off btn btn-secondary\\" aria-label={{...}}>
+                                            <img alt=\\"\\" src={{...}} />
+                                          </button>
+                                        </Button>
+                                        <mockConstructor placement=\\"bottom\\" target=\\"serviceType1\\" isOpen={false} toggle={[Function: bound ]}>
+                                          Tooltip
+                                        </mockConstructor>
+                                      </div>
+                                    </GlobalFilterServiceButton>
+                                  </div>
+                                </div>
+                              </GlobalFilterServices>
+                            </div>
+                          </div>
+                          <div className=\\"globalfilter-desktop\\">
+                            <div className=\\"globalfilter-users-container\\">
+                              <GlobalFilterDropdown id=\\"UsersDropDown\\" title=\\"Users\\" items={{...}} itemLabelProperty=\\"email\\" selectItemHandler={[Function: bound ]} selectItemHandlerArgs={{...}} selectedItems={{...}} showSearch={true} isServicePoint={false}>
+                                <div>
+                                  <div id=\\"UsersDropDown\\" onClick={[Function: bound ]} className=\\"map-controls-button\\">
+                                    <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+                                      <span className=\\"badge badge-secondary badge-pill\\">
+                                        All
+                                      </span>
+                                    </Badge>
+                                     
+                                    Users
+                                    <div className=\\"map-controls-button-caret\\">
+                                      <FontAwesomeIcon icon=\\"caret-down\\">
+                                        <i className=\\"fa\\" />
+                                      </FontAwesomeIcon>
+                                    </div>
+                                  </div>
+                                  <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"UsersDropDown\\" toggle={[Function: bound ]} className=\\"map-controls-popover\\">
+                                    Popover
+                                  </mockConstructor>
+                                </div>
+                              </GlobalFilterDropdown>
+                            </div>
+                            <div className=\\"globalfilter-service-points-container\\">
+                              <GlobalFilterDropdown id=\\"ServicePointsDropDown\\" title=\\"Service Points\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[Function: bound ]} selectItemHandlerArgs={{...}} selectedItems={{...}} showSearch={true} isServicePoint={true}>
+                                <div>
+                                  <div id=\\"ServicePointsDropDown\\" onClick={[Function: bound ]} className=\\"map-controls-button\\">
+                                    <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+                                      <span className=\\"badge badge-secondary badge-pill\\">
+                                        All
+                                      </span>
+                                    </Badge>
+                                     
+                                    Service Points
+                                    <div className=\\"map-controls-button-caret\\">
+                                      <FontAwesomeIcon icon=\\"caret-down\\">
+                                        <i className=\\"fa\\" />
+                                      </FontAwesomeIcon>
+                                    </div>
+                                  </div>
+                                  <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"ServicePointsDropDown\\" toggle={[Function: bound ]} className=\\"map-controls-popover\\">
+                                    Popover
+                                  </mockConstructor>
+                                </div>
+                              </GlobalFilterDropdown>
+                            </div>
+                            <div className=\\"globalfilter-survey-types-container\\">
+                              <GlobalFilterDropdown id=\\"SurveyTypeDropDown\\" title=\\"Survey Types\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[Function: bound ]} selectItemHandlerArgs={{...}} selectedItems={{...}} isServicePoint={false} showSearch={false}>
+                                <div>
+                                  <div id=\\"SurveyTypeDropDown\\" onClick={[Function: bound ]} className=\\"map-controls-button\\">
+                                    <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+                                      <span className=\\"badge badge-secondary badge-pill\\">
+                                        All
+                                      </span>
+                                    </Badge>
+                                     
+                                    Survey Types
+                                    <div className=\\"map-controls-button-caret\\">
+                                      <FontAwesomeIcon icon=\\"caret-down\\">
+                                        <i className=\\"fa\\" />
+                                      </FontAwesomeIcon>
+                                    </div>
+                                  </div>
+                                  <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"SurveyTypeDropDown\\" toggle={[Function: bound ]} className=\\"map-controls-popover\\">
+                                    Popover
+                                  </mockConstructor>
+                                </div>
+                              </GlobalFilterDropdown>
+                            </div>
+                            <div className=\\"globalfilter-satisfied-container\\">
+                              <GlobalFilterDropdown id=\\"SatisfiedDropDown\\" title=\\"Satisfied\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[Function: bound ]} selectItemHandlerArgs={{...}} selectedItems={{...}} isServicePoint={false} showSearch={false}>
+                                <div>
+                                  <div id=\\"SatisfiedDropDown\\" onClick={[Function: bound ]} className=\\"map-controls-button\\">
+                                    <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+                                      <span className=\\"badge badge-secondary badge-pill\\">
+                                        All
+                                      </span>
+                                    </Badge>
+                                     
+                                    Satisfied
+                                    <div className=\\"map-controls-button-caret\\">
+                                      <FontAwesomeIcon icon=\\"caret-down\\">
+                                        <i className=\\"fa\\" />
+                                      </FontAwesomeIcon>
+                                    </div>
+                                  </div>
+                                  <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"SatisfiedDropDown\\" toggle={[Function: bound ]} className=\\"map-controls-popover\\">
+                                    Popover
+                                  </mockConstructor>
+                                </div>
+                              </GlobalFilterDropdown>
+                            </div>
+                            <div className=\\"globalfilter-fresh-idea-container\\">
+                              <GlobalFilterDropdown id=\\"FreshIdeaDropDown\\" title=\\"Fresh Idea\\" items={{...}} itemLabelProperty=\\"name\\" selectItemHandler={[Function: bound ]} selectItemHandlerArgs={{...}} selectedItems={{...}} isServicePoint={false} showSearch={false}>
+                                <div>
+                                  <div id=\\"FreshIdeaDropDown\\" onClick={[Function: bound ]} className=\\"map-controls-button\\">
+                                    <Badge color=\\"secondary\\" pill={true} tag=\\"span\\">
+                                      <span className=\\"badge badge-secondary badge-pill\\">
+                                        All
+                                      </span>
+                                    </Badge>
+                                     
+                                    Fresh Idea
+                                    <div className=\\"map-controls-button-caret\\">
+                                      <FontAwesomeIcon icon=\\"caret-down\\">
+                                        <i className=\\"fa\\" />
+                                      </FontAwesomeIcon>
+                                    </div>
+                                  </div>
+                                  <mockConstructor placement=\\"bottom\\" isOpen={false} target=\\"FreshIdeaDropDown\\" toggle={[Function: bound ]} className=\\"map-controls-popover\\">
+                                    Popover
+                                  </mockConstructor>
+                                </div>
+                              </GlobalFilterDropdown>
+                            </div>
+                            <div className=\\"globalfilter-reset-filters-container\\">
+                              <Button className=\\"resetButton primary\\" onClick={[Function]} color=\\"secondary\\" tag=\\"button\\">
+                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"resetButton primary btn btn-secondary\\" aria-label={{...}}>
+                                  Reset All
+                                </button>
+                              </Button>
+                            </div>
+                          </div>
+                          <div className=\\"globalfilter-mobile\\">
+                            <Navbar tag=\\"nav\\" expand={false}>
+                              <nav className=\\"navbar\\">
+                                <NavbarBrand className=\\"globalfilter-mobile-brand\\" tag=\\"a\\">
+                                  <a className=\\"globalfilter-mobile-brand navbar-brand\\">
+                                    <p>
+                                      Filter
+                                    </p>
+                                  </a>
+                                </NavbarBrand>
+                                <NavbarToggler onClick={[Function: bound ]} tag=\\"button\\" type=\\"button\\">
+                                  <button onClick={[Function: bound ]} type=\\"button\\" className=\\"navbar-toggler\\">
+                                    <span className=\\"navbar-toggler-icon\\" />
+                                  </button>
+                                </NavbarToggler>
+                                <Collapse isOpen={false} navbar={true} in={false} mountOnEnter={false} unmountOnExit={false} appear={false} enter={true} exit={true} onEnter={[Function: noop]} onEntering={[Function: noop]} onEntered={[Function: noop]} onExit={[Function: noop]} onExiting={[Function: noop]} onExited={[Function: noop]} tag=\\"div\\" timeout={350}>
+                                  <Transition onExited={[Function: bound onExited]} onExiting={[Function: bound onExiting]} onExit={[Function: bound onExit]} onEntered={[Function: bound onEntered]} onEntering={[Function: bound onEntering]} onEnter={[Function: noop]} timeout={350} exit={true} enter={true} appear={false} unmountOnExit={false} mountOnEnter={false} in={false}>
+                                    <div style={{...}} className=\\"collapse navbar-collapse\\">
+                                      <div className=\\"globalfilter-mobile-container\\">
+                                        <div>
+                                          <div className=\\"globalfilter-search-container fadein\\">
+                                            <GlobalFilterSearch setData={[Function: bound setData]} toggleRefresh={[Function: bound toggleRefresh]} placeholder=\\"Idea Search\\" clearSearch={false} defaultSearchValue=\\"\\">
+                                              <div>
+                                                <div className=\\"map-controls-search-icon\\">
+                                                  <FontAwesomeIcon icon=\\"search\\">
+                                                    <i className=\\"fa\\" />
+                                                  </FontAwesomeIcon>
+                                                </div>
+                                                <Input type=\\"text\\" innerRef={[Function: innerRef]} name=\\"\\" onChange={[Function: bound onChange]} id=\\"search\\" className=\\"map-controls-search\\" placeholder=\\"Idea Search\\" defaultValue=\\"\\">
+                                                  <input name=\\"\\" onChange={[Function: bound onChange]} id=\\"search\\" placeholder=\\"Idea Search\\" defaultValue=\\"\\" type=\\"text\\" className=\\"map-controls-search form-control\\" />
+                                                </Input>
+                                              </div>
+                                            </GlobalFilterSearch>
+                                          </div>
+                                          <div className=\\"globalfilter-users-container fadein\\">
+                                            <GlobalFilterMobileButton text=\\"Users (0)\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  Users (0)
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                          </div>
+                                          <div className=\\"globalfilter-label fadein\\">
+                                            <p className=\\"small\\">
+                                              Start Date:
+                                            </p>
+                                          </div>
+                                          <div className=\\"globalfilter-label fadein\\">
+                                            <p className=\\"small\\">
+                                              End Date:
+                                            </p>
+                                          </div>
+                                          <div className=\\"globalfilter-calendar-container fadein\\">
+                                            <GlobalFilterMobileButton text=\\"03/25/2015\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  03/25/2015
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                            <GlobalFilterMobileButton text=\\"04/01/2015\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  04/01/2015
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                          </div>
+                                          <div className=\\"globalfilter-locations-container fadein\\">
+                                            <GlobalFilterMobileButton text=\\"Countries (0)\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  Countries (0)
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                            <GlobalFilterMobileButton text=\\"Locations (0)\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  Locations (0)
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                          </div>
+                                          <div className=\\"globalfilter-service-points-container fadein\\">
+                                            <GlobalFilterMobileButton text=\\"Service Points (0)\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  Service Points (0)
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                          </div>
+                                          <div className=\\"globalfilter-service-container fadein\\">
+                                            <GlobalFilterServices serviceTypes={{...}} toggleServiceType={[Function: bound ]} selectedServiceTypes={{...}}>
+                                              <div>
+                                                <div className=\\"map-controls-service-container\\">
+                                                  <GlobalFilterServiceButton id=\\"1\\" tipId=\\"serviceType1\\" iconoff={{...}} iconon={{...}} name=\\"Test Service Type\\" toggleServiceType={[Function: bound ]} selectedServiceTypes={{...}}>
+                                                    <div>
+                                                      <Button id=\\"serviceType1\\" data-service-id=\\"1\\" className=\\"service-toggle-off\\" onClick={[Function: onClick]} color=\\"secondary\\" tag=\\"button\\">
+                                                        <button type=\\"button\\" id=\\"serviceType1\\" data-service-id=\\"1\\" onClick={[Function: bound onClick]} className=\\"service-toggle-off btn btn-secondary\\" aria-label={{...}}>
+                                                          <img alt=\\"\\" src={{...}} />
+                                                        </button>
+                                                      </Button>
+                                                      <mockConstructor placement=\\"bottom\\" target=\\"serviceType1\\" isOpen={false} toggle={[Function: bound ]}>
+                                                        Tooltip
+                                                      </mockConstructor>
+                                                    </div>
+                                                  </GlobalFilterServiceButton>
+                                                </div>
+                                              </div>
+                                            </GlobalFilterServices>
+                                          </div>
+                                          <div className=\\"globalfilter-survey-types-container fadein\\">
+                                            <GlobalFilterMobileButton text=\\"Survey Types (0)\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  Survey Types (0)
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                          </div>
+                                          <div className=\\"globalfilter-satisfied-container fadein\\">
+                                            <GlobalFilterMobileButton text=\\"Satisfied (0)\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  Satisfied (0)
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                          </div>
+                                          <div className=\\"globalfilter-fresh-idea-container fadein\\">
+                                            <GlobalFilterMobileButton text=\\"Fresh Idea (0)\\" onClick={[Function: bound ]}>
+                                              <Button onClick={[Function: bound ]} className=\\"globalfilter-mobile-button\\" color=\\"secondary\\" tag=\\"button\\">
+                                                <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"globalfilter-mobile-button btn btn-secondary\\" aria-label={{...}}>
+                                                  Fresh Idea (0)
+                                                  <div className=\\"globalfilter-button-caret\\">
+                                                    <FontAwesomeIcon icon=\\"caret-right\\">
+                                                      <i className=\\"fa\\" />
+                                                    </FontAwesomeIcon>
+                                                  </div>
+                                                </button>
+                                              </Button>
+                                            </GlobalFilterMobileButton>
+                                          </div>
+                                          <div className=\\"globalfilter-reset-filters-container\\">
+                                            <Button className=\\"resetButton primary\\" onClick={[Function]} color=\\"secondary\\" tag=\\"button\\">
+                                              <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"resetButton primary btn btn-secondary\\" aria-label={{...}}>
+                                                Reset All
+                                              </button>
+                                            </Button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </Transition>
+                                </Collapse>
+                              </nav>
+                            </Navbar>
+                          </div>
+                        </div>
+                      </div>
+                    </GlobalFilter>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+        <Container fluid={true} className=\\"desktop-non-fluid\\" tag=\\"div\\">
+          <div className=\\"desktop-non-fluid container-fluid\\">
+            <div className=\\"mydata-page white-page-bg\\">
+              <Row tag=\\"div\\">
+                <div className=\\"row\\">
+                  <Col tag=\\"div\\" widths={{...}}>
+                    <div className=\\"col\\">
+                      <CustomizableProvider pagination={{...}}>
+                        <StateProvider pagination={{...}}>
+                          <div>
+                            <BootstrapTableContainer keyField=\\"id\\" columns={{...}} data={{...}} bootstrap4={true} setDependencyModules={[Function: bound setDependencyModules]} registerExposedAPI={[Function]} pagination={{...}} setPaginationRemoteEmitter={[Function]} dataChangeListener={{...}} defaultSorted={{...}} striped={true} hover={true} remote={true} onTableChange={[Function: bound ]} bordered={false} noDataIndication=\\"\\">
+                              <DataProvider keyField=\\"id\\" columns={{...}} data={{...}}>
+                                <SortProvider keyField=\\"id\\" columns={{...}} defaultSorted={{...}} defaultSortDirection={[undefined]} sort={[undefined]} data={{...}}>
+                                  <PaginationDataProvider pagination={{...}} data={{...}} bootstrap4={true} isRemotePagination={[Function]} remoteEmitter={{...}} onDataSizeChange={[undefined]}>
+                                    <ColumnManagementProvider keyField=\\"id\\" columns={{...}} toggles={{...}}>
+                                      <BootstrapTable keyField=\\"id\\" columns={{...}} data={{...}} bootstrap4={true} setDependencyModules={[Function: bound setDependencyModules]} registerExposedAPI={[Function]} pagination={{...}} setPaginationRemoteEmitter={[Function]} dataChangeListener={{...}} defaultSorted={{...}} striped={true} hover={true} remote={true} onTableChange={[Function: bound ]} bordered={false} noDataIndication=\\"\\" sortOrder=\\"desc\\" onSort={[Function]} sortField=\\"createdAt\\" setRemoteEmitter={[undefined]} condensed={false} selectRow={{...}} expandRow={{...}} cellEdit={{...}} filterPosition=\\"inline\\">
+                                        <div className=\\"react-bootstrap-table\\">
+                                          <table id={[undefined]} className=\\"table table-striped table-hover\\">
+                                            <Header columns={{...}} className={[undefined]} wrapperClasses={[undefined]} sortField=\\"createdAt\\" sortOrder=\\"desc\\" onSort={[Function]} globalSortCaret={[undefined]} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} selectRow={{...}} expandRow={{...}} filterPosition=\\"inline\\">
+                                              <thead className={[undefined]}>
+                                                <tr className={[undefined]}>
+                                                  <HeaderCell index={0} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} aria-label=\\" sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable col-satisfied\\">
+                                                      <SortSymbol>
+                                                        <span className=\\"order-4\\" />
+                                                      </SortSymbol>
+                                                    </th>
+                                                  </HeaderCell>
+                                                  <HeaderCell index={1} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} aria-label=\\"Fresh Idea sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable col-is-starred\\">
+                                                      Fresh Idea
+                                                      <SortSymbol>
+                                                        <span className=\\"order-4\\" />
+                                                      </SortSymbol>
+                                                    </th>
+                                                  </HeaderCell>
+                                                  <HeaderCell index={2} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} aria-label=\\"Service Type sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable col-service-type\\">
+                                                      Service Type
+                                                      <SortSymbol>
+                                                        <span className=\\"order-4\\" />
+                                                      </SortSymbol>
+                                                    </th>
+                                                  </HeaderCell>
+                                                  <HeaderCell index={3} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} aria-label=\\"Location sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable col-location\\">
+                                                      Location
+                                                      <SortSymbol>
+                                                        <span className=\\"order-4\\" />
+                                                      </SortSymbol>
+                                                    </th>
+                                                  </HeaderCell>
+                                                  <HeaderCell index={4} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} aria-label=\\"Service Point sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable col-service-point\\">
+                                                      Service Point
+                                                      <SortSymbol>
+                                                        <span className=\\"order-4\\" />
+                                                      </SortSymbol>
+                                                    </th>
+                                                  </HeaderCell>
+                                                  <HeaderCell index={5} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} aria-label=\\"User sortable\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable col-user\\">
+                                                      User
+                                                      <SortSymbol>
+                                                        <span className=\\"order-4\\" />
+                                                      </SortSymbol>
+                                                    </th>
+                                                  </HeaderCell>
+                                                  <HeaderCell index={6} column={{...}} onSort={[Function]} sorting={true} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={true} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} aria-label=\\"Date sort desc\\" onKeyUp={[Function]} onClick={[Function]} className=\\"sortable col-created-at\\">
+                                                      Date
+                                                      <SortCaret order=\\"desc\\">
+                                                        <span className=\\"caret-4-desc\\" />
+                                                      </SortCaret>
+                                                    </th>
+                                                  </HeaderCell>
+                                                  <HeaderCell index={7} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} className=\\"col-idea\\">
+                                                      Idea
+                                                    </th>
+                                                  </HeaderCell>
+                                                  <HeaderCell index={8} column={{...}} onSort={[Function]} sorting={false} sortOrder=\\"desc\\" globalSortCaret={[undefined]} isLastSorting={false} onFilter={[undefined]} currFilters={[undefined]} onExternalFilter={[undefined]} filterPosition=\\"inline\\">
+                                                    <th tabIndex={0} className=\\"col-df1\\">
+                                                      <span>
+                                                        Showing
+                                                        <br />
+                                                        1
+                                                         
+                                                        to
+                                                         
+                                                        1
+                                                         
+                                                        of
+                                                        <br />
+                                                        1
+                                                         
+                                                        results
+                                                      </span>
+                                                    </th>
+                                                  </HeaderCell>
+                                                </tr>
+                                              </thead>
+                                            </Header>
+                                            <Body className={[undefined]} data={{...}} keyField=\\"id\\" tabIndexCell={[undefined]} columns={{...}} isEmpty={false} visibleColumnSize={9} noDataIndication=\\"\\" cellEdit={{...}} selectRow={{...}} expandRow={{...}} rowStyle={[undefined]} rowClasses={[undefined]} rowEvents={[undefined]}>
+                                              <tbody className={[undefined]}>
+                                                <SimpleRow row={{...}} tabIndexCell={[undefined]} columns={{...}} keyField=\\"id\\" cellEdit={{...}} value=\\"1\\" rowIndex={0} visibleColumnSize={9} attrs={{...}} style={{...}} className={{...}} editable={true}>
+                                                  <tr style={{...}} className={{...}}>
+                                                    <RowPureContent shouldUpdate={true} tabIndexStart={-1} row={{...}} columns={{...}} keyField=\\"id\\" cellEdit={{...}} value=\\"1\\" rowIndex={0} editable={true}>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={0} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"col-satisfied\\">
+                                                        <td className=\\"col-satisfied\\">
+                                                          <img width=\\"24\\" src={{...}} alt=\\"unsatisfied\\" />
+                                                        </td>
+                                                      </Cell>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={1} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"col-is-starred\\">
+                                                        <td className=\\"col-is-starred\\">
+                                                          <Badge color=\\"secondary\\" pill={false} tag=\\"span\\">
+                                                            <span className=\\"badge badge-secondary\\">
+                                                              No
+                                                            </span>
+                                                          </Badge>
+                                                        </td>
+                                                      </Cell>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={2} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"col-service-type\\">
+                                                        <td className=\\"col-service-type\\">
+                                                          Test Service Type
+                                                        </td>
+                                                      </Cell>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={3} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"col-location\\">
+                                                        <td className=\\"col-location\\">
+                                                          Test Location
+                                                        </td>
+                                                      </Cell>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={4} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"col-service-point\\">
+                                                        <td className=\\"col-service-point\\">
+                                                          <span>
+                                                            Test Service Point
+                                                             
+                                                            <em>
+                                                              (
+                                                              Test Location
+                                                              )
+                                                            </em>
+                                                          </span>
+                                                        </td>
+                                                      </Cell>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={5} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} title=\\"testuser@kujakuja.com\\" className=\\"col-user\\">
+                                                        <td title=\\"testuser@kujakuja.com\\" className=\\"col-user\\">
+                                                          <span>
+                                                            testuser
+                                                            <br />
+                                                            @
+                                                            kujakuja.com
+                                                          </span>
+                                                        </td>
+                                                      </Cell>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={6} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"col-created-at\\">
+                                                        <td className=\\"col-created-at\\">
+                                                          <span>
+                                                            Invalid date
+                                                            <br />
+                                                            Invalid date
+                                                          </span>
+                                                        </td>
+                                                      </Cell>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={7} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"col-idea\\">
+                                                        <td className=\\"col-idea\\">
+                                                          <div>
+                                                            Test idea response
+                                                            <br />
+                                                            <Button type=\\"button\\" className=\\"tag\\" value=\\"#Health\\" onClick={[Function]} color=\\"secondary\\" tag=\\"button\\">
+                                                              <button type=\\"button\\" value=\\"#Health\\" onClick={[Function: bound onClick]} className=\\"tag btn btn-secondary\\" aria-label={{...}}>
+                                                                #Health
+                                                              </button>
+                                                            </Button>
+                                                          </div>
+                                                        </td>
+                                                      </Cell>
+                                                      <Cell row={{...}} editable={true} rowIndex={0} columnIndex={8} column={{...}} onStart={[undefined]} clickToEdit={[undefined]} dbclickToEdit={[undefined]} className=\\"col-df1\\">
+                                                        <td className=\\"col-df1\\">
+                                                          <Button color=\\"primary\\" className=\\"primary\\" onClick={[Function: onClick]} tag=\\"button\\">
+                                                            <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary btn btn-primary\\" aria-label={{...}}>
+                                                              View
+                                                            </button>
+                                                          </Button>
+                                                        </td>
+                                                      </Cell>
+                                                    </RowPureContent>
+                                                  </tr>
+                                                </SimpleRow>
+                                              </tbody>
+                                            </Body>
+                                          </table>
+                                        </div>
+                                      </BootstrapTable>
+                                    </ColumnManagementProvider>
+                                  </PaginationDataProvider>
+                                </SortProvider>
+                              </DataProvider>
+                            </BootstrapTableContainer>
+                            <Component custom={true} page={1} totalSize={1} sizePerPage={100} sizePerPageList={{...}} bootstrap4={[undefined]} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} dataSize={1} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                              <PaginationHandler custom={true} totalSize={1} sizePerPageList={{...}} bootstrap4={[undefined]} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} dataSize={1} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} currPage={1} currSizePerPage={100}>
+                                <SizePerPageDropdownAdapter custom={true} totalSize={1} sizePerPageList={{...}} bootstrap4={[undefined]} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} dataSize={1} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} currPage={1} currSizePerPage={100} lastPage={1} totalPages={1}>
+                                  <SizePerPageDropdownStandalone custom={true} totalSize={1} sizePerPageList={{...}} bootstrap4={[undefined]} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} dataSize={1} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} currPage={1} currSizePerPage=\\"100\\" lastPage={1} totalPages={1} options={{...}} optionRenderer={[undefined]} onClick={[Function: bound toggleDropDown]} onBlur={[Function: bound closeDropDown]} open={false}>
+                                    <SizePerPageDropDown custom={true} totalSize={1} sizePerPageList={{...}} bootstrap4={[undefined]} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} dataSize={1} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} currPage={1} currSizePerPage=\\"100\\" lastPage={1} totalPages={1} options={{...}} optionRenderer={{...}} onClick={[Function: bound toggleDropDown]} onBlur={[Function: bound closeDropDown]} open={false} hidden={false} btnContextual=\\"btn-default btn-secondary\\" variation=\\"dropdown\\" className=\\"\\">
+                                      <span style={{...}} className=\\"react-bs-table-sizePerPage-dropdown dropdown\\">
+                                        <button id=\\"pageDropDown\\" className=\\"btn btn-default btn-secondary dropdown-toggle\\" data-toggle=\\"dropdown\\" aria-expanded={false} onClick={[Function: bound toggleDropDown]} onBlur={[Function: bound closeDropDown]}>
+                                          100
+                                           
+                                          <span>
+                                            <span className=\\"caret\\" />
+                                          </span>
+                                        </button>
+                                        <ul className=\\"dropdown-menu \\" role=\\"menu\\" aria-labelledby=\\"pageDropDown\\">
+                                          <SizePerPageOption text=\\"25\\" page={25} bootstrap4={false} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                            <li role=\\"presentation\\" className=\\"dropdown-item\\">
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" data-page={25} onMouseDown={[Function: onMouseDown]}>
+                                                25
+                                              </a>
+                                            </li>
+                                          </SizePerPageOption>
+                                          <SizePerPageOption text=\\"50\\" page={50} bootstrap4={false} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                            <li role=\\"presentation\\" className=\\"dropdown-item\\">
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" data-page={50} onMouseDown={[Function: onMouseDown]}>
+                                                50
+                                              </a>
+                                            </li>
+                                          </SizePerPageOption>
+                                          <SizePerPageOption text=\\"100\\" page={100} bootstrap4={false} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                            <li role=\\"presentation\\" className=\\"dropdown-item\\">
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" data-page={100} onMouseDown={[Function: onMouseDown]}>
+                                                100
+                                              </a>
+                                            </li>
+                                          </SizePerPageOption>
+                                          <SizePerPageOption text=\\"250\\" page={250} bootstrap4={false} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                            <li role=\\"presentation\\" className=\\"dropdown-item\\">
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" data-page={250} onMouseDown={[Function: onMouseDown]}>
+                                                250
+                                              </a>
+                                            </li>
+                                          </SizePerPageOption>
+                                          <SizePerPageOption text=\\"500\\" page={500} bootstrap4={false} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                                            <li role=\\"presentation\\" className=\\"dropdown-item\\">
+                                              <a href=\\"#\\" tabIndex=\\"-1\\" role=\\"menuitem\\" data-page={500} onMouseDown={[Function: onMouseDown]}>
+                                                500
+                                              </a>
+                                            </li>
+                                          </SizePerPageOption>
+                                        </ul>
+                                      </span>
+                                    </SizePerPageDropDown>
+                                  </SizePerPageDropdownStandalone>
+                                </SizePerPageDropdownAdapter>
+                              </PaginationHandler>
+                            </Component>
+                            <Component custom={true} page={1} totalSize={1} sizePerPage={100} sizePerPageList={{...}} bootstrap4={[undefined]} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} dataSize={1} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]}>
+                              <PaginationHandler custom={true} totalSize={1} sizePerPageList={{...}} bootstrap4={[undefined]} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} dataSize={1} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} currPage={1} currSizePerPage={100}>
+                                <PaginationListAdapter custom={true} totalSize={1} sizePerPageList={{...}} bootstrap4={[undefined]} pageStartIndex={1} hidePageListOnlyOnePage={false} hideSizePerPage={false} alwaysShowAllBtns={false} withFirstAndLast={true} dataSize={1} paginationSize={5} showTotal={[undefined]} pageListRenderer={[undefined]} pageButtonRenderer={[undefined]} sizePerPageRenderer={[undefined]} paginationTotalRenderer={[undefined]} sizePerPageOptionRenderer={[undefined]} firstPageText=\\"<<\\" prePageText=\\"<\\" nextPageText=\\">\\" lastPageText=\\">>\\" prePageTitle=\\"previous page\\" nextPageTitle=\\"next page\\" firstPageTitle=\\"first page\\" lastPageTitle=\\"last page\\" onPageChange={[Function: bound handleChangePage]} onSizePerPageChange={[Function: bound handleChangeSizePerPage]} currPage={1} currSizePerPage={100} lastPage={1} totalPages={1}>
+                                  <PaginationListStandalone pageButtonRenderer={[undefined]} onPageChange={[Function: bound handleChangePage]} pages={{...}}>
+                                    <PaginatonList pageButtonRenderer={{...}} onPageChange={[Function: bound handleChangePage]} pages={{...}}>
+                                      <ul className=\\"pagination react-bootstrap-table-page-btns-ul\\">
+                                        <PageButton page={1} active={true} disabled={false} title=\\"1\\" onPageChange={[Function: bound handleChangePage]}>
+                                          <li className=\\"active page-item\\" title=\\"1\\">
+                                            <a href=\\"#\\" onClick={[Function: bound handleClick]} className=\\"page-link\\">
+                                              1
+                                            </a>
+                                          </li>
+                                        </PageButton>
+                                      </ul>
+                                    </PaginatonList>
+                                  </PaginationListStandalone>
+                                </PaginationListAdapter>
+                              </PaginationHandler>
+                            </Component>
+                          </div>
+                        </StateProvider>
+                      </CustomizableProvider>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </div>
+        </Container>
+      </div>
+    </ToolkitProvider>
+  </Toolkitprovider>
+</MyData>"
+`;

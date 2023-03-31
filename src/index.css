@@ -1,0 +1,338 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 900;
+    color: #171D21;
+    text-align: center;
+}
+
+h1.left, h2.left, h3.left, h4.left {
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+h4 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 21px;
+}
+
+h4.label {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: 32px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #2B3841;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.small {
+    font-weight: 400;
+    font-size: 12px;
+    color: #2B3841;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.numbers_big {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #181D21;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+}
+
+.numbers_big .left {
+    text-align: left;
+}
+
+button.primary,
+button.secondary,
+button#pageDropDown {
+    padding: 15px 40px;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 1.71px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+button.primary,
+button#pageDropDown {
+    background-color: #171D21;
+}
+
+button.secondary {
+    background-color: #606060;
+}
+
+button.primary:hover,
+button.secondary:hover,
+button#pageDropDown:hover {
+    opacity: 0.8;
+    color: #FFF;
+    background-color: #5A6268;
+    border-color: #545B62;
+}
+
+button.primary:focus, button.primary:active,
+.btn-primary:not(:disabled):not(.disabled):active,
+button.secondary:focus, button.secondary:active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+button#pageDropDown:focus, button#pageDropDown:active
+ {
+    outline: none !important;
+    box-shadow: none;
+    color: #FFF;
+    background-color: #545B62;
+    border-color: #4E555B;
+}
+
+.btn-primary.disabled, .btn-primary:disabled, .btn-secondary.disabled, .btn-secondary:disabled {
+    color: #FFF;
+    background-color: #6C757D;
+    border-color: #6C757D;
+}
+
+button.cancel {
+    color: #6C757D;
+    border: 1px solid #6C757D;
+    background-color: #FFF;
+}
+
+button.tag {
+    border: none;
+    background-color: transparent;
+    color: #000;
+    font-size: 11px;
+    padding: 0;
+    margin: 5px 5px 0 0;
+}
+
+button.tag:hover, button.tag:active {
+    background-color: transparent !important;
+    color: grey !important;
+}
+
+/* form elements */
+form {
+    margin-top: 32px;
+}
+
+input, textarea, select, input.form-control, textarea.form-control, select.form-control {
+    background-color: #F5F5F5 !important;
+    border: none !important;
+}
+
+input:focus, textarea:focus, select:focus, button:focus {
+    box-shadow: none !important;
+}
+
+form .btn-row {
+    margin-top: 24px;
+}
+
+form button {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* page styles */
+.page {
+    padding-top: 20px;
+}
+
+div.title-background-parent {
+    width: 100%;
+    height: 506px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+div.title-background-shape {
+    width: 140%;
+    height: 506px;
+    position: absolute;
+    top: 0;
+    left: -20%;
+    padding: 0 20%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    overflow: hidden;
+    background-color: #FFC300;
+    opacity: 0.88;
+    z-index: -1;
+  }
+
+.page-title {
+    position: relative;
+}
+
+.page-title button {
+    position: absolute;
+    right: 0;
+    margin-top: 16px;
+}
+
+.white-page-bg {
+    background-color: #FFF;
+    border-radius: 8px;
+    margin-top: 24px;
+    box-shadow: 0 24px 18px -10px rgba(23,29,33,0.08);
+    margin-bottom: 56px;
+    min-height: 800px;
+    width: 100%;
+    padding: 24px;
+}
+
+.page-bg {
+    width: 100% !important;
+    padding: 0;
+}
+
+/*  modals  */
+body.modal-open .modal {
+    display: flex !important;
+    height: 100%;
+}
+
+body.modal-open .modal .modal-dialog {
+    margin: auto;
+}
+
+.modal-dialog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content {
+    border: 0 !important;
+    border-radius: 8px;
+}
+
+.modal-body {
+    box-shadow: 0 24px 18px -10px rgba(23,29,33,0.08);
+}
+
+.modal-header {
+    border-bottom: 1px solid #F5F5F5;
+    height: 56px;
+    padding-left: 24px;
+}
+
+.modal-header p {
+    margin-bottom: -8px;
+}
+
+.modal-header .close {
+    color: #171D21;
+    font-size: 32px;
+    opacity: 1;
+    margin-top: -20px;
+    margin-right:-8px;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.modal-backdrop.show {
+    background-color: rgba(43,56,65,0.80);
+}
+
+/* tooltips */
+.tooltip-inner {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    background-color: #171D21 !important;
+    color: #FFF;
+    margin-top: 18px;
+    padding: 8px;
+    opacity: 1.0;
+}
+
+.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    border-bottom-color: #171D21 !important;
+    margin-bottom: -18px;
+}
+
+/* animations  */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.fadein {
+    animation: fadein 0.55s;
+}
+
+@media screen and (max-width: 1200px) {
+    div.title-background-shape {
+        width: 180% !important;
+        left: -40% !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    div.title-background-shape {
+        width: 200% !important;
+        left: -50% !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .left-right-grid-column {
+        max-width: 30px;
+    }
+
+    div.title-background-shape {
+        width: 220% !important;
+        left: -60% !important;
+    }
+}

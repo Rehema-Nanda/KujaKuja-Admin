@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+"<App>
+  <div className=\\"App\\">
+    <BrowserRouter>
+      <Router history={{...}}>
+        <div>
+          <Route render={[Function: render]}>
+            <GlobalHeader>
+              <div>
+                <Navbar className=\\"global-header\\" style={{...}} expand=\\"lg\\" tag=\\"nav\\">
+                  <nav style={{...}} className=\\"global-header navbar navbar-expand-lg\\">
+                    <div className=\\"logo-parent-div\\">
+                      <NavLink className=\\"kuja-kuja-logo-nav-link\\" to=\\"/\\" tag={[Function: NavLink]} onClick={[Function: bound toggleMenu]}>
+                        <NavLink to=\\"/\\" onClick={[Function: bound onClick]} className=\\"kuja-kuja-logo-nav-link nav-link\\" activeClassName=\\"active\\" aria-current=\\"page\\">
+                          <Route path=\\"\\\\\\\\/\\" exact={[undefined]} strict={[undefined]} location={[undefined]}>
+                            <Link to=\\"/\\" className=\\"kuja-kuja-logo-nav-link nav-link active\\" style={{...}} aria-current=\\"page\\" onClick={[Function: bound onClick]} replace={false}>
+                              <a className=\\"kuja-kuja-logo-nav-link nav-link active\\" style={{...}} aria-current=\\"page\\" onClick={[Function]} href=\\"/\\">
+                                <img alt=\\"Logo\\" className=\\"customer-logo\\" src={{...}} />
+                              </a>
+                            </Link>
+                          </Route>
+                        </NavLink>
+                      </NavLink>
+                    </div>
+                  </nav>
+                </Navbar>
+                <Modal isOpen={false} toggle={[Function: bound toggleLogoutConfirmationModal]} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}} />
+              </div>
+            </GlobalHeader>
+          </Route>
+          <Switch>
+            <Route exact={true} path=\\"/\\" render={[Function: render]} location={{...}} computedMatch={{...}}>
+              <Dashboard>
+                <div>
+                  <section className=\\"dashboard\\">
+                    <div className=\\"title-background-parent\\">
+                      <div className=\\"title-background-shape\\" />
+                    </div>
+                    <Container tag=\\"div\\">
+                      <div className=\\"container\\">
+                        <Row tag=\\"div\\">
+                          <div className=\\"row\\">
+                            <Col tag=\\"div\\" widths={{...}}>
+                              <div className=\\"col\\">
+                                <div className=\\"login-bar\\">
+                                  <div className=\\"welcome\\">
+                                    <p className=\\"small\\">
+                                      Welcome back!
+                                    </p>
+                                  </div>
+                                  <div className=\\"last-login\\">
+                                    <p className=\\"small\\">
+                                      Last login: 
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <Row tag=\\"div\\">
+                          <div className=\\"row\\">
+                            <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                              <div className=\\"col-sm-8\\">
+                                <Row tag=\\"div\\">
+                                  <div className=\\"row\\">
+                                    <Col tag=\\"div\\" widths={{...}}>
+                                      <div className=\\"col\\">
+                                        <div className=\\"top-container\\">
+                                          <h4 className=\\"label\\">
+                                            Total Data Points
+                                          </h4>
+                                          <div className=\\"data-holder\\">
+                                            <h2 className=\\"numbers_big\\">
+                                              0
+                                            </h2>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </Col>
+                                    <Col tag=\\"div\\" widths={{...}}>
+                                      <div className=\\"col\\">
+                                        <div className=\\"top-container\\">
+                                          <h4 className=\\"label\\">
+                                            Overall Satisfaction
+                                          </h4>
+                                          <div className=\\"pie\\">
+                                            <div className=\\"pie-holder\\">
+                                              <Pie data={{...}} options={{...}} height={64} width={64}>
+                                                <ChartComponent data={{...}} options={{...}} height={64} width={64} type=\\"pie\\" legend={{...}} redraw={false} datasetKeyProvider={[Function]}>
+                                                  <canvas height={64} width={64} id={[undefined]} onClick={[Function]} />
+                                                </ChartComponent>
+                                              </Pie>
+                                            </div>
+                                            <div className=\\"pie-legend\\">
+                                              <p className=\\"small\\">
+                                                <Badge color=\\"#F8382B\\" style={{...}} pill={true} tag=\\"span\\">
+                                                  <span style={{...}} className=\\"badge badge-#F8382B badge-pill\\">
+                                                     
+                                                  </span>
+                                                </Badge>
+                                                 
+                                                NaN% Unsatisfied
+                                              </p>
+                                              <p className=\\"small\\">
+                                                <Badge color=\\"success\\" style={{...}} pill={true} tag=\\"span\\">
+                                                  <span style={{...}} className=\\"badge badge-success badge-pill\\">
+                                                     
+                                                  </span>
+                                                </Badge>
+                                                 
+                                                NaN% Satisfied
+                                              </p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </Col>
+                                  </div>
+                                </Row>
+                                <Row className=\\"top-details-row\\" tag=\\"div\\">
+                                  <div className=\\"top-details-row row\\">
+                                    <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                      <div className=\\"col-sm-4\\">
+                                        <div>
+                                          <h4 className=\\"label\\">
+                                            Active Countries
+                                          </h4>
+                                          <h2 className=\\"numbers_big left\\">
+                                            0
+                                          </h2>
+                                        </div>
+                                      </div>
+                                    </Col>
+                                    <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                      <div className=\\"col-sm-4\\">
+                                        <div>
+                                          <h4 className=\\"label\\">
+                                            Active Locations
+                                          </h4>
+                                          <h2 className=\\"numbers_big left\\">
+                                            0
+                                          </h2>
+                                        </div>
+                                      </div>
+                                    </Col>
+                                    <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                      <div className=\\"col-sm-4\\">
+                                        <div>
+                                          <h4 className=\\"label\\">
+                                            Active Service Points
+                                          </h4>
+                                          <h2 className=\\"numbers_big left\\">
+                                            0
+                                          </h2>
+                                        </div>
+                                      </div>
+                                    </Col>
+                                  </div>
+                                </Row>
+                                <Row tag=\\"div\\">
+                                  <div className=\\"row\\">
+                                    <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                      <div className=\\"col-sm-4\\">
+                                        <div>
+                                          <h4 className=\\"label\\">
+                                            Service Types
+                                          </h4>
+                                          <h2 className=\\"numbers_big left\\">
+                                            0
+                                          </h2>
+                                        </div>
+                                      </div>
+                                    </Col>
+                                    <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                                      <div className=\\"col-sm-4\\">
+                                        <div>
+                                          <h4 className=\\"label\\">
+                                            Team Members
+                                          </h4>
+                                          <h2 className=\\"numbers_big left\\">
+                                            0
+                                          </h2>
+                                        </div>
+                                      </div>
+                                    </Col>
+                                  </div>
+                                </Row>
+                              </div>
+                            </Col>
+                            <Col sm={{...}} tag=\\"div\\" widths={{...}}>
+                              <div className=\\"col-sm-4\\">
+                                <Col tag=\\"div\\" widths={{...}}>
+                                  <div className=\\"col\\">
+                                    <div className=\\"top-container-idea-feed\\">
+                                      <h4 className=\\"label\\">
+                                        This Week&#39;s Featured Ideas
+                                      </h4>
+                                      <ul className=\\"list-unstyled\\">
+                                        <li>
+                                          <p>
+                                            No featured ideas this week
+                                          </p>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                    </Container>
+                    <Loading>
+                      <div className=\\"loading-container\\">
+                        <div className=\\"loader\\" />
+                      </div>
+                    </Loading>
+                  </section>
+                </div>
+              </Dashboard>
+            </Route>
+          </Switch>
+          <Route render={[Function: render]}>
+            <GlobalFooter>
+              <section className=\\"footer\\">
+                <div className=\\"footer-details\\">
+                  <div className=\\"footer-logo\\">
+                    <img alt=\\"Logo\\" src={{...}} />
+                  </div>
+                  <div className=\\"footer-social\\">
+                    <div className=\\"social-instagram\\" onClick={[Function: onClick]} />
+                    <div className=\\"social-fb\\" onClick={[Function: onClick]} />
+                    <div className=\\"social-twitter\\" onClick={[Function: onClick]} />
+                    <div className=\\"social-medium\\" onClick={[Function: onClick]} />
+                  </div>
+                </div>
+              </section>
+            </GlobalFooter>
+          </Route>
+        </div>
+      </Router>
+    </BrowserRouter>
+  </div>
+</App>"
+`;

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading /> renders corrrectly 1`] = `
+"<div className=\\"loading-container\\">
+  <div className=\\"loader\\" />
+</div>"
+`;

@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#config should render correctly 1`] = `
+"<Config>
+  <div className=\\"page\\">
+    <div className=\\"title-background-parent\\">
+      <div className=\\"title-background-shape\\" />
+    </div>
+    <Banner pageTitle=\\"custom header\\" buttonDisabled={false}>
+      <Container tag=\\"div\\">
+        <div className=\\"container\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-sm-7 col-md-8\\">
+                  <div className=\\"page-title\\">
+                    <h1 className=\\"left\\">
+                      Custom header
+                    </h1>
+                    <p>
+                      Manage your
+                       
+                      custom header
+                    </p>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-sm-5 col-md-4\\">
+                  <div className=\\"page-title\\" />
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </Banner>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <AvForm encType=\\"multipart/form-data\\" onValidSubmit={[Function: bound handleFormSubmit]} model={{...}} tag={[Function: Form]} validationEvent={{...}} method=\\"get\\" onSubmit={[Function: onSubmit]} onKeyDown={[Function: onKeyDown]} onInvalidSubmit={[Function: onInvalidSubmit]}>
+          <Form noValidate={true} action=\\"#\\" encType=\\"multipart/form-data\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\" tag=\\"form\\">
+            <form noValidate={true} action=\\"#\\" encType=\\"multipart/form-data\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\">
+              <div style={{...}}>
+                <Row style={{...}} tag=\\"div\\">
+                  <div style={{...}} className=\\"row\\">
+                    <Col lg={{...}} tag=\\"div\\" widths={{...}}>
+                      <div className=\\"col-lg-12\\">
+                        <h4 style={{...}}>
+                          Header Highlight Color
+                        </h4>
+                        <p>
+                          This is the thin color band that runs across the very top of the page.
+                        </p>
+                        <div style={{...}} className=\\"d-flex justify-content-start\\">
+                          <div className=\\"p-2\\">
+                            <img alt=\\"\\" style={{...}} src=\\"hint-color-band-213px.png\\" />
+                          </div>
+                          <div className=\\"p-2\\">
+                            <ColorPicker color={{...}} refresh={{...}} handleColorChange={[Function: bound handleHeaderHighlightColorChange]}>
+                              <Row tag=\\"div\\">
+                                <div className=\\"row\\">
+                                  <Col style={{...}} sm=\\"12\\" md=\\"6\\" tag=\\"div\\" widths={{...}}>
+                                    <div style={{...}} className=\\"col-sm-12 col-md-6\\">
+                                      <div style={{...}} onClick={[Function]} role=\\"presentation\\">
+                                        <div style={{...}} />
+                                      </div>
+                                    </div>
+                                  </Col>
+                                </div>
+                              </Row>
+                            </ColorPicker>
+                          </div>
+                        </div>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row style={{...}} tag=\\"div\\">
+                  <div style={{...}} className=\\"row\\">
+                    <Col lg={{...}} tag=\\"div\\" widths={{...}}>
+                      <div className=\\"col-lg-12\\">
+                        <h4 style={{...}}>
+                          Branding
+                        </h4>
+                        <p>
+                          You can add your logo and title to the header, plus a favicon for the site.
+                        </p>
+                        <div style={{...}} className=\\"d-flex justify-content-start\\">
+                          <div className=\\"p-2\\">
+                            <img alt=\\"\\" style={{...}} src=\\"hint-header-logo-220px.png\\" />
+                          </div>
+                          <FileUploader url={{...}} file={{...}} refresh={false} updateFile={[Function: bound updateHeaderFile]} uploadTitle=\\"Page header logo\\" altTag=\\"Logo\\" id=\\"logoImage\\">
+                            <div style={{...}} className=\\"d-flex justify-content-start\\">
+                              <div>
+                                <div style={{...}}>
+                                  <img alt=\\"Logo\\" id=\\"logoImage\\" style={{...}} src={{...}} />
+                                  <div style={{...}}>
+                                    <img alt=\\"Edit Icon\\" style={{...}} src={{...}} />
+                                  </div>
+                                </div>
+                              </div>
+                              <div style={{...}}>
+                                <h3 style={{...}}>
+                                  Page header logo
+                                </h3>
+                                <input name=\\"file\\" onChange={[Function]} type=\\"file\\" style={{...}} />
+                              </div>
+                            </div>
+                          </FileUploader>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col lg={{...}} tag=\\"div\\" widths={{...}}>
+                      <div className=\\"col-lg-12\\">
+                        <div style={{...}} className=\\"d-flex justify-content-start\\">
+                          <div className=\\"p-2\\">
+                            <img alt=\\"\\" style={{...}} src=\\"hint-browser-tab-214px.png\\" />
+                          </div>
+                          <div>
+                            <FileUploader url={{...}} file={{...}} refresh={false} updateFile={[Function: bound updateFaviconFile]} uploadTitle=\\"Browser favicon icon\\" altTag=\\"Favicon\\" id=\\"faviconImage\\">
+                              <div style={{...}} className=\\"d-flex justify-content-start\\">
+                                <div>
+                                  <div style={{...}}>
+                                    <img alt=\\"Favicon\\" id=\\"faviconImage\\" style={{...}} src={{...}} />
+                                    <div style={{...}}>
+                                      <img alt=\\"Edit Icon\\" style={{...}} src={{...}} />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div style={{...}}>
+                                  <h3 style={{...}}>
+                                    Browser favicon icon
+                                  </h3>
+                                  <input name=\\"file\\" onChange={[Function]} type=\\"file\\" style={{...}} />
+                                </div>
+                              </div>
+                            </FileUploader>
+                          </div>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col style={{...}} lg={{...}} tag=\\"div\\" widths={{...}}>
+                      <div style={{...}} className=\\"col-lg-12\\">
+                        <BtnRow buttonLabel=\\"Update\\" cancelForm={[Function: bound cancelForm]}>
+                          <Row className=\\"btn-row\\" tag=\\"div\\">
+                            <div className=\\"btn-row row\\">
+                              <Col tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col\\" />
+                              </Col>
+                              <Col tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col\\">
+                                  <Button color=\\"primary\\" className=\\"primary cancel\\" onClick={[Function: bound cancelForm]} tag=\\"button\\">
+                                    <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary cancel btn btn-primary\\" aria-label={{...}}>
+                                      Back
+                                    </button>
+                                  </Button>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                        </BtnRow>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <p style={{...}} className=\\"small\\">
+                  Thank you, please refresh your screen to view saved changes
+                </p>
+              </div>
+            </form>
+          </Form>
+        </AvForm>
+      </div>
+    </Container>
+  </div>
+</Config>"
+`;

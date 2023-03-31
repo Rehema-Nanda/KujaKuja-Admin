@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFilterCheckbox /> renders correctly 1`] = `
+"<FormGroup check={true} tag=\\"div\\">
+  <Label check={true} className=\\"map-controls-checkbox\\" tag=\\"label\\" widths={{...}}>
+    <Input type=\\"checkbox\\" checked={true} onChange={[Function: bound ]} />
+  </Label>
+</FormGroup>"
+`;

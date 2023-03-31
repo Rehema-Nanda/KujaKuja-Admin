@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguageSelectionModal component should render correctly 1`] = `
+"<LanguageSelectionModal isOpen={true} toggle={[Function: mockConstructor]} selectedForUpdate={{...}} responsesToUpdate={{...}} handleLanguageSelect={[Function: mockConstructor]}>
+  <Modal isOpen={true} toggle={[Function: mockConstructor]} size=\\"lg\\" autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}}>
+    <Portal node={{...}}>
+      <Portal containerInfo={{...}}>
+        <div className=\\"\\">
+          <Fade onClick={[Function: bound handleBackdropClick]} onMouseDown={[Function: bound handleBackdropMouseDown]} onKeyUp={[Function: bound handleEscape]} onKeyDown={[Function: bound handleTab]} style={{...}} aria-labelledby={[undefined]} role=\\"dialog\\" tabIndex=\\"-1\\" in={true} mountOnEnter={false} unmountOnExit={false} appear={true} enter={true} exit={true} onEnter={[Function: noop]} onEntering={[Function: noop]} onEntered={[Function: bound onOpened]} onExit={[Function: noop]} onExiting={[Function: noop]} onExited={[Function: bound onClosed]} tag=\\"div\\" baseClass=\\"fade\\" baseClassActive=\\"show\\" timeout={300} cssModule={[undefined]} className=\\"modal\\" innerRef={[undefined]}>
+            <Transition onExited={[Function: bound onClosed]} onExiting={[Function: noop]} onExit={[Function: noop]} onEntered={[Function: bound onOpened]} onEntering={[Function: noop]} onEnter={[Function: noop]} timeout={300} exit={true} enter={true} appear={true} unmountOnExit={false} mountOnEnter={false} in={true}>
+              <div className=\\"modal fade\\" onClick={[Function: bound handleBackdropClick]} onMouseDown={[Function: bound handleBackdropMouseDown]} onKeyUp={[Function: bound handleEscape]} onKeyDown={[Function: bound handleTab]} style={{...}} aria-labelledby={[undefined]} role=\\"dialog\\" tabIndex=\\"-1\\">
+                <div className=\\"modal-dialog modal-lg\\" role=\\"document\\">
+                  <div className=\\"modal-content\\">
+                    <ModalHeader toggle={[Function: mockConstructor]} tag=\\"h5\\" wrapTag=\\"div\\" closeAriaLabel=\\"Close\\" charCode={215}>
+                      <div className=\\"modal-header\\">
+                        <h5 className=\\"modal-title\\">
+                          Please select a new Language
+                        </h5>
+                        <button type=\\"button\\" onClick={[Function: mockConstructor]} className=\\"close\\" aria-label=\\"Close\\">
+                          <span aria-hidden=\\"true\\">
+                            ×
+                          </span>
+                        </button>
+                      </div>
+                    </ModalHeader>
+                    <ModalBody tag=\\"div\\">
+                      <div className=\\"modal-body\\">
+                        <Row tag=\\"div\\">
+                          <div className=\\"row\\">
+                            <Col xs=\\"6\\" tag=\\"div\\" widths={{...}}>
+                              <div className=\\"col-6\\">
+                                From:
+                                <div className=\\"sp-selection-modal-container-from\\" style={{...}}>
+                                  <p>
+                                    English
+                                  </p>
+                                </div>
+                              </div>
+                            </Col>
+                            <Col xs=\\"6\\" tag=\\"div\\" widths={{...}}>
+                              <div className=\\"col-6\\">
+                                <div>
+                                  To:
+                                  <div className=\\"lng-selection-modal-container-to\\">
+                                    <div className=\\"lng-options\\">
+                                      <Button onClick={[Function: onClick]} className=\\"sp-selection-modal-button\\" value=\\"en\\" active={false} color=\\"secondary\\" tag=\\"button\\">
+                                        <button type=\\"button\\" onClick={[Function: bound onClick]} value=\\"en\\" className=\\"sp-selection-modal-button btn btn-secondary\\" aria-label={{...}}>
+                                          <span style={{...}}>
+                                            English
+                                          </span>
+                                          <div className=\\"sp-option-caret\\">
+                                            <FontAwesomeIcon icon=\\"chevron-right\\">
+                                              <i className=\\"fa\\" />
+                                            </FontAwesomeIcon>
+                                          </div>
+                                        </button>
+                                      </Button>
+                                      <Button onClick={[Function: onClick]} className=\\"sp-selection-modal-button\\" value=\\"es\\" active={false} color=\\"secondary\\" tag=\\"button\\">
+                                        <button type=\\"button\\" onClick={[Function: bound onClick]} value=\\"es\\" className=\\"sp-selection-modal-button btn btn-secondary\\" aria-label={{...}}>
+                                          <span style={{...}}>
+                                            Español
+                                          </span>
+                                          <div className=\\"sp-option-caret\\">
+                                            <FontAwesomeIcon icon=\\"chevron-right\\">
+                                              <i className=\\"fa\\" />
+                                            </FontAwesomeIcon>
+                                          </div>
+                                        </button>
+                                      </Button>
+                                      <Button onClick={[Function: onClick]} className=\\"sp-selection-modal-button\\" value=\\"sw\\" active={false} color=\\"secondary\\" tag=\\"button\\">
+                                        <button type=\\"button\\" onClick={[Function: bound onClick]} value=\\"sw\\" className=\\"sp-selection-modal-button btn btn-secondary\\" aria-label={{...}}>
+                                          <span style={{...}}>
+                                            Swahili
+                                          </span>
+                                          <div className=\\"sp-option-caret\\">
+                                            <FontAwesomeIcon icon=\\"chevron-right\\">
+                                              <i className=\\"fa\\" />
+                                            </FontAwesomeIcon>
+                                          </div>
+                                        </button>
+                                      </Button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                    </ModalBody>
+                  </div>
+                </div>
+              </div>
+            </Transition>
+          </Fade>
+          <Fade in={true} mountOnEnter={true} unmountOnExit={false} appear={true} enter={true} exit={true} onEnter={[Function: noop]} onEntering={[Function: noop]} onEntered={[Function: noop]} onExit={[Function: noop]} onExiting={[Function: noop]} onExited={[Function: noop]} tag=\\"div\\" baseClass=\\"fade\\" baseClassActive=\\"show\\" timeout={150} cssModule={[undefined]} className=\\"modal-backdrop\\">
+            <Transition onExited={[Function: noop]} onExiting={[Function: noop]} onExit={[Function: noop]} onEntered={[Function: noop]} onEntering={[Function: noop]} onEnter={[Function: noop]} timeout={150} exit={true} enter={true} appear={true} unmountOnExit={false} mountOnEnter={true} in={true}>
+              <div className=\\"modal-backdrop fade\\" />
+            </Transition>
+          </Fade>
+        </div>
+      </Portal>
+    </Portal>
+  </Modal>
+</LanguageSelectionModal>"
+`;

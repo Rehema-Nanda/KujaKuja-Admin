@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountriesEdit component should render correctly 1`] = `
+"<CountriesEdit history={{...}} match={{...}}>
+  <div className=\\"page\\">
+    <div className=\\"title-background-parent\\">
+      <div className=\\"title-background-shape\\" />
+    </div>
+    <Banner pageTitle=\\"country\\" elementAction=\\"update\\" buttonFunction={[Function]} buttonDisabled={false}>
+      <Container tag=\\"div\\">
+        <div className=\\"container\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-sm-7 col-md-8\\">
+                  <div className=\\"page-title\\">
+                    <h1 className=\\"left\\">
+                      Country
+                    </h1>
+                    <p>
+                      Manage your
+                       
+                      country
+                    </p>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={{...}} md={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-sm-5 col-md-4\\">
+                  <div className=\\"page-title\\" />
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </Banner>
+    <ConfirmationModal buttonFunction={[Function]} toggle={[Function]} isOpen={false}>
+      <Modal isOpen={false} toggle={[Function]} autoFocus={true} centered={false} role=\\"dialog\\" backdrop={true} keyboard={true} zIndex={1050} fade={true} onOpened={[Function: noop]} onClosed={[Function: noop]} modalTransition={{...}} backdropTransition={{...}} />
+    </ConfirmationModal>
+    <Container tag=\\"div\\">
+      <div className=\\"container\\">
+        <div className=\\"white-page-bg\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col lg={{...}} tag=\\"div\\" widths={{...}}>
+                <div className=\\"col-lg-10 offset-lg-1\\">
+                  <div>
+                    <AvForm onValidSubmit={[Function]} tag={[Function: Form]} model={{...}} validationEvent={{...}} method=\\"get\\" onSubmit={[Function: onSubmit]} onKeyDown={[Function: onKeyDown]} onInvalidSubmit={[Function: onInvalidSubmit]}>
+                      <Form noValidate={true} action=\\"#\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\" tag=\\"form\\">
+                        <form noValidate={true} action=\\"#\\" method=\\"get\\" onSubmit={[Function]} onKeyDown={[Function: onKeyDown]} className=\\"av-valid\\">
+                          <Row tag=\\"div\\">
+                            <div className=\\"row\\">
+                              <Col tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col\\">
+                                  <AvField name=\\"name\\" label=\\"Name\\" required={true} value=\\"Afghanistan\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"name\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"name\\" className=\\"\\">
+                                              Name
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"name\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"name\\" required={true} value=\\"Afghanistan\\" validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"name\\" required={true} value=\\"Afghanistan\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"name\\" type=\\"text\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"name\\" required={true} value=\\"Afghanistan\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"name\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField name=\\"iso_two_letter_code\\" label=\\"ISO Two-Letter Code\\" required={true} maxLength=\\"2\\" minLength=\\"2\\" value=\\"AF\\">
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"iso_two_letter_code\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"iso_two_letter_code\\" className=\\"\\">
+                                              ISO Two-Letter Code
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"iso_two_letter_code\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"iso_two_letter_code\\" required={true} maxLength=\\"2\\" minLength=\\"2\\" value=\\"AF\\" validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"iso_two_letter_code\\" required={true} maxLength=\\"2\\" minLength=\\"2\\" value=\\"AF\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"iso_two_letter_code\\" type=\\"text\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"iso_two_letter_code\\" required={true} maxLength=\\"2\\" minLength=\\"2\\" value=\\"AF\\" onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} id=\\"iso_two_letter_code\\" type=\\"text\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"checkbox\\" name=\\"enabled\\" label=\\"Enabled\\" checked={false}>
+                                    <AvGroup check={true} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={true} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-check\\">
+                                          <AvInput id=\\"enabled\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"checkbox\\" name=\\"enabled\\" checked={false} validationEvent=\\"\\" validate={{...}} trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"checkbox\\" name=\\"enabled\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} className=\\"is-untouched is-pristine av-valid\\" id=\\"enabled\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"enabled\\" checked={false} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} onChange={[Function: bound onChangeHandler]} value={false} id=\\"enabled\\" type=\\"checkbox\\" className=\\"is-untouched is-pristine av-valid form-check-input\\" />
+                                            </Input>
+                                          </AvInput>
+                                          <Label for=\\"enabled\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"enabled\\" className=\\"\\">
+                                              Enabled
+                                            </label>
+                                          </Label>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"number\\" name=\\"lat\\" label=\\"Latitude\\" required={true} validate={{...}} value=\\"0.00000000\\" onChange={[Function]}>
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"lat\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"lat\\" className=\\"\\">
+                                              Latitude
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"lat\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"number\\" name=\\"lat\\" required={true} validate={{...}} value=\\"0.00000000\\" onChange={[Function]} validationEvent=\\"\\" trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"number\\" name=\\"lat\\" required={true} value=\\"0.00000000\\" onChange={[Function: bound onChangeHandler]} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"lat\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"lat\\" required={true} value=\\"0.00000000\\" onChange={[Function: bound onChangeHandler]} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} id=\\"lat\\" type=\\"number\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                  <AvField type=\\"number\\" name=\\"lng\\" label=\\"Longitude\\" required={true} validate={{...}} value=\\"0.00000000\\" onChange={[Function]}>
+                                    <AvGroup check={false} disabled={[undefined]} row={false}>
+                                      <FormGroup className=\\"\\" check={false} disabled={[undefined]} row={false} tag=\\"div\\">
+                                        <div className=\\"position-relative form-group\\">
+                                          <Label for=\\"lng\\" className={[undefined]} hidden={[undefined]} size={[undefined]} tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor=\\"lng\\" className=\\"\\">
+                                              Longitude
+                                            </label>
+                                          </Label>
+                                          <AvInput id=\\"lng\\" className={[undefined]} size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"number\\" name=\\"lng\\" required={true} validate={{...}} value=\\"0.00000000\\" onChange={[Function]} validationEvent=\\"\\" trueValue={true} falseValue={false} tag={[Function: Input]}>
+                                            <Input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} type=\\"number\\" name=\\"lng\\" required={true} value=\\"0.00000000\\" onChange={[Function: bound onChangeHandler]} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} className=\\"is-untouched is-pristine av-valid\\" id=\\"lng\\">
+                                              <input size={[undefined]} disabled={[undefined]} readOnly={[undefined]} name=\\"lng\\" required={true} value=\\"0.00000000\\" onChange={[Function: bound onChangeHandler]} onKeyUp={[Function: bound onKeyUpHandler]} onBlur={[Function: bound onBlurHandler]} onInput={[Function: bound onInputHandler]} onFocus={[Function: bound onFocusHandler]} id=\\"lng\\" type=\\"number\\" className=\\"is-untouched is-pristine av-valid form-control\\" />
+                                            </Input>
+                                          </AvInput>
+                                        </div>
+                                      </FormGroup>
+                                    </AvGroup>
+                                  </AvField>
+                                </div>
+                              </Col>
+                              <Col tag=\\"div\\" widths={{...}}>
+                                <div className=\\"col\\">
+                                  <p className=\\"small\\">
+                                    To add a center point or outline, click one of the tool buttons and then the map. Click a blue shape to make it editable (turns yellow). Click away from a yellow shape to set it (turns blue).
+                                  </p>
+                                  <p className=\\"small\\">
+                                    Make sure to move the center point to within the bounds of the country when enabling a country for the first time.
+                                  </p>
+                                  <div className=\\"data-map\\">
+                                    <div />
+                                  </div>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                          <BtnRow buttonLabel=\\"Update\\" cancelForm={[Function]}>
+                            <Row className=\\"btn-row\\" tag=\\"div\\">
+                              <div className=\\"btn-row row\\">
+                                <Col tag=\\"div\\" widths={{...}}>
+                                  <div className=\\"col\\" />
+                                </Col>
+                                <Col tag=\\"div\\" widths={{...}}>
+                                  <div className=\\"col\\">
+                                    <Button color=\\"primary\\" className=\\"primary cancel\\" onClick={[Function]} tag=\\"button\\">
+                                      <button type=\\"button\\" onClick={[Function: bound onClick]} className=\\"primary cancel btn btn-primary\\" aria-label={{...}}>
+                                        Back
+                                      </button>
+                                    </Button>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </BtnRow>
+                          <p className=\\"error-message\\" style={{...}} />
+                        </form>
+                      </Form>
+                    </AvForm>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </div>
+    </Container>
+  </div>
+</CountriesEdit>"
+`;

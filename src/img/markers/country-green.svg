@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="40px" viewBox="0 0 30 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Country</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="3.0.0---Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---Map--UI" transform="translate(-404.000000, -912.000000)">
+            <g id="Markers" transform="translate(376.000000, 533.000000)">
+                <g id="Green" transform="translate(28.000000, 40.000000)">
+                    <g id="Country" transform="translate(0.000000, 339.000000)">
+                        <g id="Marker---Green">
+                            <g>
+                                <ellipse id="Oval-6" fill="#00BA54" fill-rule="nonzero" cx="15" cy="15.4285714" rx="15" ry="15.4285714"></ellipse>
+                                <path d="M26.3636364,37.7142857 C26.3636364,38.9771023 21.2080677,40 14.8490178,40 C8.48890198,40 3.33333333,38.9771023 3.33333333,37.7142857 C3.33333333,36.4514691 8.48890198,35.4285714 14.8490178,35.4285714 C21.2080677,35.4285714 26.3636364,36.4514691 26.3636364,37.7142857" id="Shadow" fill-opacity="0.2" fill="#2B3841" filter="url(#filter-1)"></path>
+                                <polygon id="Triangle-2" fill="#00BA54" fill-rule="nonzero" transform="translate(15.013902, 32.183419) scale(1, -1) translate(-15.013902, -32.183419) " points="15.0853136 25.9541713 25.9407552 38.4126674 4.0870497 38.4126674"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

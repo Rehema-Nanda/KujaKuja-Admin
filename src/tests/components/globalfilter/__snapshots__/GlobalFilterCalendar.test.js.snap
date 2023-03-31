@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GlobalFilterCalendar /> renders correctly 1`] = `
+"<div className=\\"date-pickers-holder\\">
+  <button type=\\"button\\" onClick={[Function: onClick]} className=\\"left-right-button left-button\\">
+    <div className=\\"left-right-arrow left-arrow\\" />
+  </button>
+  <DatePicker className=\\"date-picker-startdate\\" withPortal={false} selected={{...}} selectsStart={true} monthsShown={2} useWeekdaysShort={true} onFocus={[Function: bound datePickerInputFocusHandler]} startDate={{...}} endDate={{...}} maxDate={{...}} calendarContainer={[Function: bound calendarContainer]} popperPlacement=\\"bottom-start\\" popperModifiers={{...}} onSelect={[Function: bound handleDateChangeStart]} allowSameDay={false} dateFormat=\\"L\\" dateFormatCalendar=\\"MMMM YYYY\\" onChange={[Function: onChange]} disabled={false} disabledKeyboardNavigation={false} dropdownMode=\\"scroll\\" onBlur={[Function: onBlur]} onKeyDown={[Function: onKeyDown]} onInputClick={[Function: onInputClick]} onClickOutside={[Function: onClickOutside$$1]} onMonthChange={[Function: onMonthChange]} preventOpenOnFocus={false} onYearChange={[Function: onYearChange]} onInputError={[Function: onInputError]} readOnly={false} shouldCloseOnSelect={true} showTimeSelect={false} timeIntervals={30} timeCaption=\\"Time\\" previousMonthButtonLabel=\\"Previous Month\\" nextMonthButtonLabel=\\"Next month\\" renderDayContents={[Function: renderDayContents]} />
+  <span className=\\"dash \\">
+     - 
+  </span>
+  <DatePicker className=\\"date-picker-enddate \\" withPortal={false} selected={{...}} selectsEnd={true} monthsShown={2} useWeekdaysShort={true} onFocus={[Function: bound datePickerInputFocusHandler]} startDate={{...}} endDate={{...}} maxDate={{...}} calendarContainer={[Function: bound calendarContainer]} popperPlacement=\\"bottom-start\\" popperModifiers={{...}} onSelect={[Function: bound handleDateChangeEnd]} allowSameDay={false} dateFormat=\\"L\\" dateFormatCalendar=\\"MMMM YYYY\\" onChange={[Function: onChange]} disabled={false} disabledKeyboardNavigation={false} dropdownMode=\\"scroll\\" onBlur={[Function: onBlur]} onKeyDown={[Function: onKeyDown]} onInputClick={[Function: onInputClick]} onClickOutside={[Function: onClickOutside$$1]} onMonthChange={[Function: onMonthChange]} preventOpenOnFocus={false} onYearChange={[Function: onYearChange]} onInputError={[Function: onInputError]} readOnly={false} shouldCloseOnSelect={true} showTimeSelect={false} timeIntervals={30} timeCaption=\\"Time\\" previousMonthButtonLabel=\\"Previous Month\\" nextMonthButtonLabel=\\"Next month\\" renderDayContents={[Function: renderDayContents]} />
+  <button type=\\"button\\" onClick={[Function: onClick]} className=\\"left-right-button right-button\\">
+    <div className=\\"left-right-arrow right-arrow\\" />
+  </button>
+</div>"
+`;

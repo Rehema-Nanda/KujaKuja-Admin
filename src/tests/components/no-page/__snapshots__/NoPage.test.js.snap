@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoPage component render correctly 1`] = `
+"<BrowserRouter>
+  <Router history={{...}}>
+    <NoPage history={{...}}>
+      <div>
+        <div className=\\"no-page\\">
+          <div className=\\"title-background-parent\\">
+            <div className=\\"title-background-shape\\" />
+          </div>
+          <Container tag=\\"div\\">
+            <div className=\\"container\\">
+              <Row tag=\\"div\\">
+                <div className=\\"row\\">
+                  <Col sm=\\"12\\" md={{...}} tag=\\"div\\" widths={{...}}>
+                    <div className=\\"col-sm-12 col-md-6 offset-md-3\\">
+                      <div className=\\"no-page-container\\">
+                        <div className=\\"no-page-icon\\">
+                          <img src=\\"face_unsatisfied.png\\" alt=\\"alt\\" />
+                        </div>
+                        <div className=\\"no-page-content\\">
+                          <h2>
+                            404 - Not found
+                          </h2>
+                          <p>
+                            This error has been recorded and we are looking into it. Please go back and try again or start over from our home page.
+                          </p>
+                        </div>
+                        <div className=\\"no-page-buttons\\">
+                          <Row tag=\\"div\\">
+                            <div className=\\"row\\">
+                              <Col xs=\\"6\\" className=\\"no-page-option\\" tag=\\"div\\" widths={{...}}>
+                                <div className=\\"no-page-option col-6\\">
+                                  <span className=\\"no-page-back\\" onClick={[Function]}>
+                                    <FontAwesomeIcon icon={{...}}>
+                                      <i className=\\"fa\\" />
+                                    </FontAwesomeIcon>
+                                     
+                                    Go Back
+                                  </span>
+                                </div>
+                              </Col>
+                              <Col xs=\\"6\\" className=\\"no-page-option\\" tag=\\"div\\" widths={{...}}>
+                                <div className=\\"no-page-option col-6\\">
+                                  <Link to=\\"/\\" replace={false}>
+                                    <a onClick={[Function]} href=\\"/\\">
+                                      <span className=\\"no-page-back\\">
+                                        Home
+                                         
+                                        <FontAwesomeIcon icon={{...}}>
+                                          <i className=\\"fa\\" />
+                                        </FontAwesomeIcon>
+                                      </span>
+                                    </a>
+                                  </Link>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                        </div>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Container>
+        </div>
+      </div>
+    </NoPage>
+  </Router>
+</BrowserRouter>"
+`;
